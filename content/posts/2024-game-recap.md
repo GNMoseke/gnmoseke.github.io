@@ -46,7 +46,7 @@ I caved and bought the game.
 
 I will say one thing immediately for Hogwarts Legacy: Hogwarts is near perfect. Avalanche Studios deserves every bit of praise they've
 received for how reactive and alive the castle feels. I had a huge grin on my face for most of the first few hours just running around
-exploring and finding my classes. Hogsmeade, too, is excellent. It feels like exactly like a kooky wizard village should. Every minute of
+exploring and finding my classes. Hogsmeade, too, is excellent. It feels exactly like a kooky wizard village should. Every minute of
 the first 10-15 hours is an absolute blast, especially because I also loved the combat system - it felt like I was actually flinging out
 spells on the fly, and the combos you can cook up were a blast.
 
