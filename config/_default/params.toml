@@ -22,8 +22,6 @@ mainSections = ["posts"]
  
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
-  # logoDark = "img/dark-logo.jpg"
   showTitle = true
 
 [footer]
@@ -48,7 +46,6 @@ mainSections = ["posts"]
   invertPagination = false
   showReadingTime = true
   showTableOfContents = false
-  showTaxonomies = true
   showWordCount = true
   showComments = false
 
@@ -68,9 +65,3 @@ mainSections = ["posts"]
 
 [taxonomies]
   tag = 'tag'
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
