@@ -10,5 +10,5 @@ bio = "Software engineer, avid runner, and sometimes I write. I'm a child of the
 links = [
     { github = "https://github.com/GNMoseke" },
     { linkedin = "https://www.linkedin.com/in/garrett-moseke/" },
-    { email = "mailto:gmosedev@proton.me" },
+    { coffee = "about" },
 ]
