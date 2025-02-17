@@ -6,7 +6,7 @@ baseURL = "https://purpleshirt.dev"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 summaryLength = 0
 
 [pagination]
