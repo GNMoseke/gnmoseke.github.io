@@ -1,0 +1,73 @@
++++
+date = '2025-03-25T09:30:00+01:00'
+draft = false
+title = 'Monkey Brain: I Love tmux Popups'
+summary = 'A short and sweet love letter to boxes being drawn on top of other boxes.'
+tags = ['Software Engineering', 'Tech', 'Monkey Brain']
++++
+
+{{< alert "coffee" >}}
+This is gonna be real niche.
+
+It's the first of any posts that I dub "Monkey Brain:"
+hyperspecific things that I really like or have recently sparked (or re-sparked)
+an interest in. It's things that do this: ![Monkey](images/neuron-activation.gif)
+{{< /alert >}}
+
+---
+
+# Floating Box is Best Box
+I absolutely love the [`display-popup`](https://man.openbsd.org/OpenBSD-current/man1/tmux.1#display-popup)
+feature of [`tmux`](https://github.com/tmux/tmux). There's all kinds of
+literature out there about tmux (and all sorts of discussions around a terminal
+multiplexer being built into your terminal emulator vs provided as its own
+binary), so I'm not going to get into the nitty gritty of what it is and what it
+does. Suffice it to say that I use `tmux` every day and it's a pretty core piece
+of my development workflow.
+
+If it wasn't clear already, I spend a lot of time on my terminal. I work on
+backend software, and I tend to spend a lot of time working in a linux
+environment (either on my personal machine, in a docker container, sshed into a
+k8s pod, etc). I write code in neovim (because I'm intolerable). I just enjoy
+everything being text that I can throw around with nothing but a keyboard,
+because it makes programming feel fun.
+
+When I was first moving to my [current tape-and-gum tangle of config](https://github.com/GNMoseke/dotfiles),
+the thing that caused the most friction for me was the need to flip to a
+different application to do basic things: I used an external visual git client
+(which to be clear, is still wildly useful on occasion). I took notes in
+Obsidian. I would create a new tmux split to do quick one-off commands, then
+close it. OK, that last one is pretty reasonable. But it moved my carefully
+sized dev environment around for an unacceptable 5-10 seconds!
+
+Enter popups. I don't remember exactly how I originally discovered the feature
+(probably from stalking through someone else's dotfiles), but it was the holy
+grail of "now-I-don't-have-to-swap-to-another-window" that I had been looking
+for. In combination with my (growing and somewhat concerning) newfound love for
+TUIs (they just make me feel cool OK, let me have this), I don't have to ever
+leave the warm, comfortable embrace of [wezterm](https://github.com/wezterm/wezterm).
+Press a quick key combo and *boom*, I have a [git
+client](https://github.com/jesseduffield/lazygit) right in front of me, rendered in glorious text.
+Another button and I can [pull up my note for the
+day](https://github.com/GNMoseke/dotfiles/blob/main/fish/.config/fish/functions/notes.fish),
+already open in nvim, and do whatever I like in my obsidian-vault-sans-obsidian.
+My latest addition is a popup for the [shitty little flashcard TUI](https://github.com/GNMoseke/Athenaeum)
+I built, so that while I'm waiting for something huge to compile I can mutter
+words in Dutch under my breath like a madman.
+
+Obviously this doesn't replace everything. A web browser is still required at
+all times for all the things that a web browser does. I play music through a
+different application, preferring to control that playback with keyboard
+hotkeys or headset touch actions rather than one of the many excellent TUIs that
+I could stick in a popup if I wanted to. The point here is that those things
+that are *most core to when I'm writing code* I want to be reachable in a single
+key sequence, without having to swap to another window. Plus, again, it makes me
+feel like a magic code wizard man, and after all, isn't that what it's all
+about?
+
+It would feel icky if I didn't mention that almost all the tools I use here are
+open-source software, built by people much more skilled than I am. My [dotfiles
+repo](https://github.com/GNMoseke/dotfiles?tab=readme-ov-file#additional-tools)
+has a mostly inclusive list of the things I use every day. All modern software
+stands on the shoulders of thankless giants (insert the classic [xkcd
+2347](https://xkcd.com/2347/) here).
