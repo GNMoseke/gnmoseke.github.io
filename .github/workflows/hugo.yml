@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.145.0 # NOTE: 146.x has a build issue with congo (currently)
+      HUGO_VERSION: 0.147.8
     steps:
       - name: Install Hugo CLI
         run: |
