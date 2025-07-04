@@ -21,3 +21,7 @@ I've participated in, so it's become somewhat of an inside joke.
 
 You can find me on {{< icon "github" >}} [GitHub](https://github.com/GNMoseke) if you're interested in what I'm working on currently or here
 on my website for whatever I feel like writing about.
+
+{{< alert "coffee" >}}
+It should go without saying, but all opinions are my own.
+{{< /alert >}}
