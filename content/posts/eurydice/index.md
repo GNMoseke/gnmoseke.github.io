@@ -1,0 +1,97 @@
++++
+date = '2025-07-07T17:00:00+01:00'
+draft = false
+title = 'Eurydice: a way to rediscover my music'
+summary = 'The next step in my ceaseless quest for the perfect music setup.'
+tags = ['Software Engineering', 'Code', ' Personal', 'Project']
++++
+
+{{< alert "coffee" >}}
+This post is broadly split into two sections:
+1. Showing off Eurydice, because as trivial as it is I'm quite proud of it.
+2. A more stream-of-consciousness set of thoughts on the fun of building things for the
+   sake of building them.
+{{< /alert >}}
+
+# Eurydice
+Over the last weekend (plus a couple evenings beforehand), I wrote [Eurydice](https://github.com/GNMoseke/eurydice),
+a very small [MPD](https://github.com/MusicPlayerDaemon/MPD) client that tracks the songs
+I'm listening to and can then generate a "mixtape" of stuff I've listened to less. That's
+the elevator pitch. It's neither a particularly complex nor a particularly robust piece of
+software, but it does *exactly* what I want it to do ([unix philosophy etc etc](https://en.wikipedia.org/wiki/Unix_philosophy)).
+
+## OK, But Why?
+As I wrote about [previously](https://purpleshirt.dev/posts/music-hoarding/), I've become
+somewhat of a local music hoarder over the past year. I've also finally managed to drop
+spotify altogether, and that's lead me down the path of [reinveniting the proverbial wheel](https://purpleshirt.dev/posts/rofi-music/)
+so that I can precisely tailor my desktop music listening experience to precisely what I
+like. It's fantastic, and it was a sorely needed rediscovery of the joy of building things
+for the fun of it. Before Eurydice, I had my experience pretty fleshed out: I'd finally
+settled on the aforementioned MPD as my player (having tried a handful of others
+beforehand that didn't quite have the level of simplicity I wanted), and I could play any
+song, album, or playlist from my collection with a simple search interface.
+
+What I was missing, though, was something that would let me break out of a loop I
+occasionally find myself in where I play the same few, new things over and over. Add to
+the fact that MPD, because of its simplicity, has no way to see your listen history or
+statistics - not at all a shortcoming of the software, but I wanted to see if I could put
+together something that would let me do my own "spotify wrapped," but whenever I want.
+
+## OK, Now Show the Thing Please
+Well, since it's a CLI utility, it's not much to look at on its own. What I have done,
+though, is integrate it into my existing rofi setup so that I can have a mixtape whenever
+I want!
+
+![Eurydice in Rofi](./eurydice-rofi.png "The image there is Eurydice as depicted in [Hades](https://images.ctfassets.net/5owu3y35gz1g/1dlZyy8BluhTzCoUCrv2u4/ad20e48b71240cecd27cf02af54444e3/Hades_Superstar_WP1.png?w=1920&q=80)")
+
+All that does is invoke the `eurydice` binary with various subcommands/flags instead of
+`mpc` the way the other selections in rofi would - again you can read more about that
+[here](https://purpleshirt.dev/posts/rofi-music/) if you're interested. I'm still building
+up the database by listening, so my mixtapes right now aren't so "mixed" - but that's part
+of the point of the tool! It needs to know what I've listened to in order to make me a
+playlist of less-oft enjoyed music (and I'm too lazy to write a one off script to import
+my entire music library to the Eurydice db)
+
+I love it. It's a fantastic little tool that I plan to keep tinkering with for a while,
+but it does exactly what I set it out to do, plus it offered me the opportunity to tinker
+with other software I use and find interesting (namely `MPD` and `sqlite`), which was awesome.
+
+# Build More Things For Shits and Giggles!
+*ahem...*
+
+*pulls out soapbox...*
+
+**NOT EVERYTHING YOU BUILD HAS TO HAVE SOME GRAND PURPOSE (AND ALSO FUCK THE LLM INDUSTRY
+FOR STEALING THE TERM "VIBE CODING")**
+
+Glad I got that off my chest. 
+
+I'm generalizing here, but there's been this thing I've started to notice more and more in
+the past couple years (and especially in the last few months with the rise of *shudder*
+"vibe coding") that everything you build has to be this magical tool that will be a
+masterpiece of software and (importantly) make you oodles and oodles of money, or get you
+oodles and oodles of open-source money (read: GitHub stars). Look, I get it - groceries
+ain't free, and we all like validation. That's fine. Honestly, if you make something
+really cool that a lot of people use and love, I can't hold that against you at all.
+
+What I can hold against you is the 100th "I slapped a wrapper on the ChatGPT API to make a
+useless SaaS" product I've seen this week. Or the newest super-general library that will
+solve all of the issues of the previous ones (looking at you, [DSLJSF](https://dayssincelastjsframework.com/history)).
+
+There's nothing wrong with reinventing the wheel, or just building random shit. In fact,
+that's where I have the most fun writing software. The problem comes when you can't just
+take a step back at the thing you built and nod to yourself in satisfaction. There doesn't
+have to be a reason your thing exists!!! Or if there is, it can be so niche and tailored
+to you that no one else cares!!! That's 1000% fine!!! 
+
+Enjoy the act of building the thing, and then having a thing you can use when you're done.
+That's really what it boils down to for me. I realize I sound like every grumpy old man
+ever, but watching one of my passions slowly be ground away at by stupid grifts and
+"hustle" culture kills some of my passion for it. And I know, it's all in my mindset and
+how I react to it - I can for sure choose to just not care. And for the most part, I do.
+But it's not completely avoidable, the internet being what it is, that I'll see something
+that was built for all the wrong reasons from the start, and that just makes me sad.
+
+I'll get off my soapbox now. I just felt the need to scream this little frustration into
+the void, and now I will happily go back to my neat little buggy mixtape generator. Shits
+and Giggles!
