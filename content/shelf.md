@@ -1,0 +1,124 @@
++++
+showDate = false
+title = 'The Shelf: Things I Like'
++++
+
+This is a collection of things I've read, watched, played, or listened to that I often
+find myself thinking about or that have had a significant impact on my life. It's an ever-
+evolving list.
+
+# Reading
+## Non-Technical
+I'll read basically anything you put in front of me, below is a selection of things I find
+myself recommending a lot:
+
+* [*The Name of the
+Wind*](https://www.goodreads.com/book/show/186074.The_Name_of_the_Wind) is my favorite
+book. The sequel (*The Wise Man's Fear*) is also good, but not nearly as good. Sadly, I
+hold no hope that the trilogy will ever be completed.
+* [*The Backyard
+Adventurer*](https://www.goodreads.com/book/show/57771547-the-backyard-adventurer),
+written by personal idol of mine ([Beau Miles](https://beaumiles.com/)), is a perfect
+example of the type of person I want to be.
+* *Ender's Game* and the entire *Harry Potter* series are likely the defining reads of my
+childhood. Both unfortunately have authors who have turned out not to be nearly as
+inspiring as their characters, but I love the books nonetheless.
+* [*Night*](https://www.goodreads.com/book/show/1617.Night) is one of the most important
+things anyone can read.
+* [*Dungeon Crawler
+Carl*](https://www.goodreads.com/book/show/56791389-dungeon-crawler-carl) is pure junk
+food reading and I love every minute of that series.
+
+## Technical
+I read a variety of technical writing (largely blog posts I find via the orange site), but
+there's a few that hold the vaunted place of "sent it to everyone I know that's a SWE."
+
+* [The Grug Brained Developer](https://grugbrain.dev/) - I loved it so much that I bought it in book form and drink
+coffee from the mug most mornings. Complexity *very very* bad.
+* [I Will Fucking Piledrive You If You Mention AI
+Again](https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/) -
+"And then some absolute son of a bitch created ChatGPT, and now look at us. Look at us,
+resplendent in our pauper's robes, stitched from corpulent greed and breathless credulity,
+spending half of the planet's engineering efforts to add chatbot support to every
+application under the sun when half of the industry hasn't worked out how to test database
+backups regularly."
+* [The Ideal Candidate Will Be Punched In the
+Stomach](https://www.scottsmitelli.com/articles/ideal-candidate/) - One of the most powerful
+things I've ever read relating to burnout
+* [Google's Code Review Guidelines](https://google.github.io/eng-practices/) - Code review
+is the part of the job I feel is most neglected by many engineers (as both the reviewer
+and reviewee).
+* [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) -
+Though it's written for Rust performance, 90% of the ideas in here are applicable to any
+software.
+
+# Playing
+Originally, I went to college with the intent of making video games professionally. That
+didn't end up working out, but games are still a large part of my life and I intend to
+publish one myself one day. They are one of the ultimate art forms.
+
+* [*Hades*](https://store.steampowered.com/app/1145360/Hades/) and now [*Hades
+II*](https://store.steampowered.com/app/1145350/Hades_II/) are my favorite games. Only one
+other game comes close. I cannot recommend both enough and you'll see them mentioned
+***constantly*** on my blog.
+* [Baldur's Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/) is the one
+that comes close. TTRPGs are a big hobby of mine as well, and Baldur's Gate 3 is actual
+magic in how much it feels like my best D&D sessions.
+* [Red Dead Redemption
+2](https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/), by no means a
+perfect game, nonetheless holds a special place in my heart for its narrative and
+characters, which are the most *human* I've ever seen.
+* [Civilization 2](https://en.wikipedia.org/wiki/Civilization_II) was the first video game
+I ever played (at least that I can remember). As a kid I would sit and watch my dad play
+the game for hours too, and that nostalgia will be with me forever.
+* [League of Legends](https://www.leagueoflegends.com/en-us/) is the odd man out here in
+that it is both the game on this list that I've played the most (likely by two orders of
+magnitude) and the only one that I don't recommend. But I feel that not including it would
+be doing a disservice to a very large portion of my life and the source of some of my best
+friends.
+
+# Listening
+I listen to *a lot* of music. I won't pretend to be some sort of aficionado (I can't even
+play an instrument, though I am learning the guitar!), but music, along with running, is
+one of the things that most directly impacts my mood. I have tons of recommendations (you
+can find a smattering [here](https://purpleshirt.dev/posts/music-hoarding/)), but the ones
+listed below I find myself coming back to frequently.
+
+* [*Omnium Gatherum* - King Gizzard and the Lizard
+Wizard](https://kinggizzard.bandcamp.com/album/omnium-gatherum) is my favorite album from
+my favorite band. KGLW don't have a single bad album, but Omnium Gatherum stands above for
+me.
+* [*Heather & Hearth* - Phantom
+Spell](https://phantomspell.bandcamp.com/album/heather-hearth) is both a recent release
+and a recent discovery of mine that's enjoyed an unreasonable amount of play time, and
+Phantom Spell's first album *Immortal's Reqium* is also outstanding start to finish.
+* [*Wallsocket* - underscores](https://underscores.bandcamp.com/album/wallsocket) is
+pretty far outside my usual taste, which makes it all the more notable.
+* [*The Witcher 3: Wild Hunt
+Soundtrack*](https://store.steampowered.com/app/1229320/The_Witcher_3_Wild_Hunt_Soundtrack/)
+is the first soundtrack I ever bought a physical copy of, and the vinyl hung framed on my
+wall in 4 different apartments.
+* [*Spirit Phone* - Lemon Demon](https://lemondemon.bandcamp.com/album/spirit-phone) is
+weird, wonderful, and absolutely worth a listen.
+
+# Watching
+This is a mix of movies and TV shows, with a pair of youtube videos thrown in (for
+good reason). I don't watch as much as I read/listen/play, so this is a combined category.
+* [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc) is one of
+those things where nothing that's presented is particularly complex, but they still hit
+you in the face with a bolt of understanding.
+* [The Barkley Marathons: The Race That Eats Its
+Young](https://www.youtube.com/watch?v=LZ-DE-hmiGE) was my introduction to the world of
+ultra running (straight into the deep end) and, though the Barkleys have become somewhat
+unfortunately well known in recent years, is still a jaw-dropping watch.
+* [Avatar: The Last Airbender](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender)
+is the best show ever made. In my opinion. And it's my blog. So I win.
+* [Arcane](https://en.wikipedia.org/wiki/Arcane_(TV_series)) is the runner up, and might
+have taken the top spot if the second season were just a smidge stronger.
+* [Adolescence](https://en.m.wikipedia.org/wiki/Adolescence_(TV_series)) is both
+disturbing and riveting, and well worth a watch.
+* [Parasite](https://en.wikipedia.org/wiki/Parasite_(2019_film)) is my favorite movie,
+though there's a few close contenders for that spot.
+* [Indiana Jones and the Last Crusade](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Last_Crusade)
+is one of them, and my favorite of the Indiana Jones duo (we pretend that the 2nd, 4th,
+and 5th ones don't exist on this blog). 
