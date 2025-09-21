@@ -79,10 +79,12 @@
   --ctp-mocha-crust-hsl: 240.000 22.727% 8.627%;
 }
 
+code,
 pre {
+  color: var(--ctp-mocha-text);
   background-color: var(--ctp-mocha-base);
   border-radius: 5px;
-  padding: 10px 5px;
+  padding: 5px 5px;
   overflow-x:scroll;
 }
 
