@@ -19,6 +19,7 @@ a {
 html {
   scrollbar-gutter: stable;
   overflow-y: scroll;
+  overflow-x:scroll;
   color: #ccc;
   font-family: "Georgia", serif;
   font-size: 1.2em;
