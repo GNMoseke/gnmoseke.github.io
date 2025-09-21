@@ -1,0 +1,97 @@
+---
+.title = "I Redid My Blog",
+.date = @date("2025-09-21T12:30:00+01:00"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "It's-not-that-deep musings on individualism, simplicity, and writing.",
+.tags = ["writing", "personal"],
+.custom = { "pinned": true }
+---
+
+I redid my blog. By "redid" I mean "started using a different static site generator." My
+previous layout looked like this:
+[Something ironic about claiming personality in a carbon copy of other sites]($image.asset('old-look.png').size(800,0))
+
+I originally built this site using [hugo](https://gohugo.io/), probably the most popular
+static site generator out there (at least for stuff hosted on GitHub pages) and the
+[congo](https://jpanther.github.io/congo/) theme for it, one of the more popular options.
+To be clear, both of these things are excellent and gave me no grief at all. Hugo works
+well and is easy to use, and congo definitely looks great, with what I would call a very
+"clean" layout.
+
+So why am I now building the site with [zine](https://zine-ssg.io/), a significantly less
+"batteries-included" option that's only been around for a year and change? Why mess with a
+good thing?
+
+The short answer is that my website didn't really feel like it was "mine." The long answer
+is the remaining [insert-word-count] words below.
+
+[]($section)
+## What Even is "Mine?"
+Oh fuck yeah we're jumping into the existentialism right off the rip. How dare you
+think any different.
+
+This is well-tread ground. I'm not a philosopher, and don't claim to be. I'm just a guy
+that writes a lot of mediocre software and runs a lot, and think those two things give him
+a unique personality. Individualism, the human desire to create and to share, all of those
+things have a myriad of discussion written by people way smarter than I am.
+
+With all that in mind, something about my previous website just felt... off. It felt like
+it was almost performative: what started as truly a way for me to throw my writing out
+into the world changed into somewhere where I felt that I had to present myself in a
+specific way. Add to that the weird dichotomy of wanting people to read my writing, but
+not wanting to share it widely for fear of coming off as narcissistic (whether that's
+feeling holds merit or not is outside the context of this discussion), and I ended up in a
+place that just didn't feel "mine."
+
+I think it really started to itch at me when I was browsing Hacker News one morning and
+came across two separate articles on two different websites using the same congo template,
+and it left a bad taste in my mouth. It felt like I was trying to be unique and creative
+only as much as was convenient for me (writing), and not in how I presented myself outside
+of it.
+
+[]($section)
+## Hackable Heart
+When I really dug down into why I was feeling so *off* about how things were, it came down
+to a pretty simple fact: I really fucking like to tinker with things, especially software.
+Like, a problematic amount. I don't claim to be a greybeard hacker who runs his own
+home-rolled kernel, but I, like many others, just like fucking around with the tools I use
+(and often breaking them).
+
+How does that relate to my website, which is built (both past and present) with
+open-source tools? Well, the short answer is that when I was using hugo/congo, I didn't
+really have a lot of control over the actual layout of my site as a whole - I just wrote
+some markdown files and then the templating engine layed it all out. Sure, I could fork
+the project and change it however I wanted, and there's stuff like hugo templates (which I
+did actually do a bit of customization with), but it felt like there were just so many
+layers between me and the actual HTML/CSS that beams into your browser.
+
+This is where zine really shines. [SuperHTML](https://zine-ssg.io/docs/superhtml/) and
+[SuperMD](https://zine-ssg.io/docs/supermd/) are really brilliant ways to give me direct
+control over the structure of my content while also introducting just enough logic to do
+some fancy stuff. For example, I like pinning a few posts on my homepage, ones that I
+think are good introductions to my writing style or that I'm particularly proud of. In
+hugo/congo, this was a two hour long struggle of playing with article weights, trying to
+add an overlay template, forgetting multiple closing curly braces, and then finally
+getting it to mostly work. In zine, it took me approximately 3 minutes having never
+touched the system before: add a custom `pinned` frontmatter property to any article I
+want, and then filter for it in my HTML source to display the list. Simple, intuitive and
+way more powerful in what I can do with it.
+
+[]($section)
+## An Eternal WIP
+Anyway, the site is and will continue to be an ever-evolving work in progress. The code
+syntax highlighting, though it now uses a color scheme I like, is still super half-assed.
+The quote blocks look OK, but not perfect. I'm still undecided on the background color,
+and the navigation scheme is largely the same as the default zine output, with a couple
+small tweaks. I don't claim to be a designer either, I just slap code into my editor and
+hope it makes something that looks reasonably decent. But, the good part is, now I know
+the site inside and out. And, with how new zine is (and how much more I enjoy zig than
+go), I'm super excited to actually contribute back to the ecosystem.
+
+Things aren't done on the hosting side either. Currently, this site is just tossed onto
+GitHub pages for simplicity, but I'd really love to get it running on my ~old laptop
+shoved into the corner~ home server, which currently runs a bunch of useful stuff, but
+only inside my network. That change will have to come in the future, though. For now, I'm
+just glad that what I put onto the internet feels more authentically like me.
