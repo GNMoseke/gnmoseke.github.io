@@ -11,7 +11,7 @@
 
 I redid my blog. By "redid" I mean "started using a different static site generator." My
 previous layout looked like this:
-[Something ironic about claiming personality in a carbon copy of other sites]($image.asset('old-look.png').size(600,0))
+[Something ironic about claiming personality in a carbon copy of other sites]($image.asset('old-look.png').size(800,0))
 
 I originally built this site using [hugo](https://gohugo.io/), probably the most popular
 static site generator out there (at least for stuff hosted on GitHub pages) and the
