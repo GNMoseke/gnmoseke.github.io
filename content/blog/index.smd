@@ -1,0 +1,15 @@
+---
+.title = "Blog",
+.date = @date(""),
+.author = "Garrett Moseke",
+.layout = "blog.shtml",
+.alternatives = [{ 
+    .name = "rss",
+    .layout = "blog.xml", 
+    .output = "index.xml",
+}],
+.draft = false,
+--- 
+
+>[]($block.attrs("author-note"))
+>You can subscribe via [RSS]($link.alternative('rss')) if you like reading my word vomit.
