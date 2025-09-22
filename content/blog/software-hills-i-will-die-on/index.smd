@@ -84,15 +84,14 @@ give me garbage and I say "hey, this pile of rotting banana peels seems bad" and
 "oh, well ChatGPT says rotting banana peels are a good architectural decision," I am going
 to scream.
 
-{{< alert "coffee" >}}
-Small sidebar: I also hate what these things have done to other creative pursuits. You can
-read my thoughts on that [here](generative-models-and-the-death-of-creativity), but I've been especially discouraged in recent months
-by how much soulless writing has seeped into my life, especially on the internet. I like
-writing. I'm not a great writer, but I think I'm, y'know, OK I guess. And I put a lot of
-effort into my writing, because it's fun. Seeing yet another pile of same-y slop just
-makes me sad (ironic, considering that none of the opinions in this post are particularly
-novel to most SWEs).
-{{< /alert >}}
+>[]($block.attrs("author-note"))
+>Small sidebar: I also hate what these things have done to other creative pursuits. You can
+>read my thoughts on that [here](generative-models-and-the-death-of-creativity), but I've been especially discouraged in recent months
+>by how much soulless writing has seeped into my life, especially on the internet. I like
+>writing. I'm not a great writer, but I think I'm, y'know, OK I guess. And I put a lot of
+>effort into my writing, because it's fun. Seeing yet another pile of same-y slop just
+>makes me sad (ironic, considering that none of the opinions in this post are particularly
+>novel to most SWEs).
 
 []($section)
 ## Most Comments in Your Code Should Have a Callout Type
