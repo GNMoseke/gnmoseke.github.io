@@ -1,0 +1,97 @@
+---
+.title = "Senior-ish",
+.date = @date("2025-10-11T19:30:00+01:00"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "I'm a good engineer. I think. Maybe. Who the fuck knows.",
+.tags = ["software engineering", "rambling", "personal"],
+---
+
+>[]($block.attrs("author-note"))
+> I've tried and failed to write various versions of this post a half dozen times over the
+> last week or so. This is finally the one that I think gets at what I'm really feeling.
+>
+> Honestly I think I'm just having a quarter life crisis really and this is how it's making itself
+> known.
+
+[]($section)
+## Craft
+I care a lot about writing code as a craft. I have an inbuilt need to carefully curate my
+commit log (which is a big reason I love [`jj`](https://github.com/jj-vcs/jj)). I hunt down
+compiler warnings with minimal mercy. I love to tinker and experiment and really try and
+get a good handle on my tooling and my development "flow."
+
+And I still write, generally speaking, pretty mediocre code.
+
+I'm going to make a claim that I feel is true but hedge it a bit: I am a *pretty good*
+swift programmer. I'm not a *godlike* swift programmer, but I know my way around the
+language pretty well. The reason I consider myself decent at the language is because I
+spent the first 4.5 years of my career writing pretty much exclusively swift (with the
+occassional interjection of the ever-present staples like bash scripts, Dockerfiles, and
+the like). Where I got extra lucky here though is that I was writing backend swift code,
+not iOS code, and I was writing it while getting code review from some of the best
+engineers I've ever met. 
+
+So why does that matter?
+
+Because I feel like it's caused this weird dichotomous thing where as soon as I moved on
+from that role from feeling stagnant (a few months ago now), I wanted to explore all the
+other fun shiny things out there, but I don't have the same support structure around me
+anymore to let me get to that level of skill so rapidly again. It means that I still have
+that same little perfection gremlin on my shoulder at all times, but no more real "mentor"
+to look over the other shoulder and guide me along.
+
+[]($section)
+## Not a Squire, Not a Lord
+So now I'm in a spot in my career that I'm sure is familiar to a lot of people: I have a
+few years of experience under my belt. I am definitely no longer a junior engineer. Many
+of the "here be dragons" gotchas that would have caught me off guard a couple years ago
+can now be avoided without a second thought, both from a high level design perspective and
+in the nitty-gritty of slinging code.
+
+But at the same time, I'm also not sure I'd call myself "senior." That title is also somewhat
+nebulous from place to place, but I use it here in the sense of "could reasonably mentor a
+handful of juniors and lead a small project." Do I think that I could do those things
+given the opportunity? Yeah. Do I think I would do it well? Not a fucking chance. It feels
+like there's still so many things that I'm weak at when it comes to software:
+* My low-level understanding is still pretty middling. Sure, I know how to figure out
+  what's causing a memory leak, I've written a smattering of assembly, etc, 
+  but a lot of the more "primitive" parts of computing are things that I just haven't had
+  to directly work with before in the land of high-level languages.
+* I haven't had to architect a really large system yet. Sure, I have all kinds of
+  thoughts and opinions on how I *think* I would do it (grug say: complexity *very very*
+  bad), but until I actually do the only frame of reference are the systems I've worked
+  on, for better or worse, without the whole picture in my head.
+* I'm pretty specialized language-wise. I'm a decent swift programmer. I can write at
+  least acceptable rust and python. That's about it. I pretty firmly believe that any
+  engineer worth their salt (hopefully myself included) can learn a new language to an
+  acceptable level within a handful of weeks, but even so.
+
+[]($section)
+## The LLM Sized Elephant
+There's an elephant in the room here in that my career is, unfortunately, coinciding with
+the huge AI bubble we now find ourselves in. Setting my own opinions about the tech aside
+(though I think my blog makes them pretty clear), it's now yet another thing I have to
+think about when presenting my work during job applications. **I** know that I don't use
+AI assistance to write code, but there's no real way for me to prove that to people
+without them actually reading my code. And, lets be honest, companies don't actually do
+that as part of the interview process, or if they do it's once you're already multiple
+rounds in, which is past the hard part of getting your foot in the door.
+
+Look, LLMs are here. They're gonna stick around. I've made my peace with that. I just
+really wish that they didn't make me feel like I was getting fucked over because I have a
+modicum of care about the code I write.
+
+[]($section)
+## Skill Issue
+All of this comes back to the fact that I just haven't built the skills. I can sit here
+and whine about having too many shiny things to play with, or about how it seems like all
+the cool software has already been written and I don't wanna just slap together yet
+another CRUD app. Sometimes you just gotta get it out there on the page. But the real
+solution here is to just go write some shit. Probably some shit in zig, because that
+language looks cool.
+
+So I'm gonna go write some shit in zig. I have no idea what it will be, and it probably
+won't be useful to anyone else, but god dammnit if I don't want to rediscover what got me
+into this field in the first place.
