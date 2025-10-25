@@ -4,7 +4,7 @@
 .author = "Garrett Moseke",
 .layout = "page.shtml",
 .draft = false,
---- 
+---
 
 This is a collection of things I've read, watched, played, or listened to that I often
 find myself thinking about or that have had a significant impact on my life. It's an ever-
@@ -54,6 +54,34 @@ and reviewee).
 * [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) -
 Though it's written for Rust performance, 90% of the ideas in here are applicable to any
 software.
+
+```=html
+<details>
+    <summary>Additional Technical Reading (Expandable)</summary>
+        <p>
+        There's a variety of additional technical reading that I've saved as
+        interesting/influential on how I write software, but in the interest of not
+        filling this entire page I'm keeping the ever-growing list tucked away in this
+        collapsible block:
+        <ul>
+            <li><a href="https://ludic.mataroa.blog/blog/on-burnout-mental-health-and-not-being-okay/">
+            This article</a> from Ludic (if you can't tell, I like him a lot) has some
+            really relatable thoughts on burnout in the software industry</li>
+            <li><a href="https://xeiaso.net/blog/2025/rolling-ladder-behind-us/">
+            Xe Iaso's extremely well written (and slightly depressing)</a> post about
+            enterprise LLMs is something I find myself quoting quite a bit.</li>
+            <li><a href="https://htmx.org/essays/locality-of-behaviour/">
+            The concept of Locality of Behavior</a> as shown on the htmx blog is another
+            thing I tend to largely agree.</li>
+            <li>The idea of<a href="https://www.teamten.com/lawrence/programming/write-code-top-down.html">
+            writing code top down</a> and the somewhat obvious but harder than it sounds
+            ability to <a href="https://www.teamten.com/lawrence/programming/dont-invent-unnecessary-requirements.html">
+            not invent unnecessary requirements</a> are things I've been trying to keep in
+            mind more and more recently.</li>
+        </ul>
+        </p>
+</details>
+```
 
 ## Playing
 Originally, I went to college with the intent of making video games professionally. That
@@ -124,4 +152,4 @@ disturbing and riveting, and well worth a watch.
 though there's a few close contenders for that spot.
 * [Indiana Jones and the Last Crusade](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Last_Crusade)
 is one of them, and my favorite of the Indiana Jones duo (we pretend that the 2nd, 4th,
-and 5th ones don't exist on this blog). 
+and 5th ones don't exist on this blog).

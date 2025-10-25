@@ -123,3 +123,13 @@ blockquote {
 blockquote p {
   padding: 15px;
 }
+
+details {
+    padding: 5px;
+    font-size: 24px;
+    border: 1px dashed;
+}
+
+details > summary {
+    font-size: 1.0em;
+}
