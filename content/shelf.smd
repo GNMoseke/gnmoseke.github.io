@@ -45,9 +45,9 @@ resplendent in our pauper's robes, stitched from corpulent greed and breathless 
 spending half of the planet's engineering efforts to add chatbot support to every
 application under the sun when half of the industry hasn't worked out how to test database
 backups regularly."*
-* [The Ideal Candidate Will Be Punched In the
-Stomach](https://www.scottsmitelli.com/articles/ideal-candidate/) - One of the most powerful
-things I've ever read relating to burnout.
+* [This talk from Scott Meyers about CPU caches](https://www.youtube.com/watch?v=WDIkqP4JbkE) -
+Really clicked a lot of concepts together for me, and it just goes to show how important
+understanding the actual hardware is.
 * [Google's Code Review Guidelines](https://google.github.io/eng-practices/) - Code review
 is the part of the job I feel is most neglected by many engineers (as both the reviewer
 and reviewee).
@@ -78,6 +78,13 @@ software.
             ability to <a href="https://www.teamten.com/lawrence/programming/dont-invent-unnecessary-requirements.html">
             not invent unnecessary requirements</a> are things I've been trying to keep in
             mind more and more recently.</li>
+            <li><a href="https://www.youtube.com/watch?v=WDIkqP4JbkE"> The Ideal Candidate
+            Will Be Punched In the Stomach</a> is one of the most powerful things I've
+            ever read relating to burnout.</li>
+            <li><a href="https://codegolf.stackexchange.com/questions/215216/high-throughput-fizz-buzz/236630">
+            This entire codegolf thread</a> on making the highest throughput
+            <code>fizzbuzz</code> possible is fascinating all the way through, even though
+            large chunks of it go way over my head.</li>
         </ul>
         </p>
 </details>
