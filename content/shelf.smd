@@ -85,6 +85,10 @@ software.
             This entire codegolf thread</a> on making the highest throughput
             <code>fizzbuzz</code> possible is fascinating all the way through, even though
             large chunks of it go way over my head.</li>
+            <li><a href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf">
+            What Every Programmer Should Know About Memory</a> is a great (and much more
+            verbose) complement to the Scott Meyers talk linked above. Definitely dry, but
+            absolutely information dense.</li>
         </ul>
         </p>
 </details>
