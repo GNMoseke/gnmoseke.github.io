@@ -48,9 +48,11 @@ backups regularly."*
 * [This talk from Scott Meyers about CPU caches](https://www.youtube.com/watch?v=WDIkqP4JbkE) -
 Really clicked a lot of concepts together for me, and it just goes to show how important
 understanding the actual hardware is.
-* [Google's Code Review Guidelines](https://google.github.io/eng-practices/) - Code review
+* [Google's Code Review Guidelines](https://google.github.io/eng-practices/) and [How Jane
+  Street Does Code Review](https://www.youtube.com/watch?v=MUqvXHEjmus) - Code review
 is the part of the job I feel is most neglected by many engineers (as both the reviewer
-and reviewee).
+and reviewee). And the Jane Street talk shows that a better review process that GitHub
+commit spam is possible.
 * [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html) -
 Though it's written for Rust performance, 90% of the ideas in here are applicable to any
 software.
