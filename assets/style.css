@@ -107,6 +107,11 @@ footer {
   align-items: center;
 }
 
+hr {
+  width: 100%;
+    border: 1px dashed;
+}
+
 footer hr {
   width: 100%;
 }
