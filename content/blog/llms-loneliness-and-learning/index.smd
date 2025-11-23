@@ -1,0 +1,207 @@
+---
+.title = "LLMs, Loneliness, and Lobotomizing Craft",
+.date = @date("2025-11-23T15:00:00+01:00"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "The inevitable LLM rant.",
+.tags = ["LLM", "AI", "Software Engineering", "Writing", "Opinion"],
+---
+
+> []($block.attrs("author-note"))
+> It is no secret to most people that know me that I generally despise LLMs and other
+> commercialized generative models (image/music/video/etc) with a deep
+> burning passion. I've written some of my thoughts [here](https://purpleshirt.dev/posts/generative-models-and-the-death-of-creativity/),
+> but I think it's important to delineate again between what I hate (LLM powered code
+> assistants, useless summary tools, "agents" and their various ilk, and "art" generators)
+> and what I don't (machine learning tools with actual applications, like translation
+> software and search augmentation that **includes sources**).
+>
+> So in the spirit of [one of my favorite articles of all time](https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/),
+> I'm gonna get real rant-y with it.
+
+[]($section)
+## Timmy's Tall Tale
+A few months ago, I was on the bus to Amsterdam Centraal and overheard a conversation
+between a couple of Australian tourists sitting behind me. It was a kid who looked like he
+was about 10-11 and his dad, and the kid - completely unprompted I might add - says to his
+dad: "You make 27 thousand dollars a year."
+
+His father, somewhat bemused, reasonably responds: "What? Where did you get that from?"
+
+This poor child answers back "From Meta AI" (which, sidenote, how fucking dystopian
+corporate is it that they called it "Meta AI?" I mean, the weird anthropomorphized ones
+aren't really any better, but still). Now, for context, being an American and having
+woefully little context on earnings numbers outside my own country or the one I'm living
+in, I went and looked up the median income in Australia.
+
+[According to the Australian Government](https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/employee-earnings/latest-release),
+it's ~$AUD 1400 a week, which comes out to just under **$AUD 73,000 a year**. Given that these are
+tourists halfway around the world, I think it's safe to assume that that number is
+probably a low ballpark.
+
+So, and I cannot emphasize this enough, ***what the fuck man?***
+
+Where the fuck did Meta's training data pull that number from? Ok, sure, there's an
+argument to be made that little Timmy (I've decided to call him Timmy) doesn't know
+precisely what his dad does and just said something like "what does
+*[insert-generic-job-here]* make?" But even still, he has now been confidently told some
+absolutely wild outlandish claim by Mr. AI (tm).
+
+"But wait!" I hear an AI bro cry. "Fake information is all over the internet! He could
+have found that BS number just by normal googling too!"
+
+Ah, but you see, this would have been a *learning* opportunity for littly Timmy. Because
+in all likelihood, he would have found multiple numbers from multiple sources, and then oh
+do the cogs go a-whirling. "Why does reddit say one number and this news article say another
+number?" he would have cried, falling to his knees in the bus. "Father, I must learn to
+think critically about what seems the most accurate, or perchance I shall simply ask you
+and know the answer from the source!"
+
+But nah. Instead the magic robot box said "Here kid, I definitely know what I'm
+talking about and the fact that I'm presented like a neat little friend to chat with makes
+it significantly less likely that you'll question what I say."
+
+> []($block.attrs("author-note"))
+> It is fair to say that in all likelihood Timmy would actually have just taken the number
+> from reddit and been done with it, but in our little pretend world here we're going to
+> assume that Timmy is a curious lad who learned to cross-reference things.
+
+[]($section)
+## Hey, Get The Fuck Out of My Life
+A month or so after Timmy, when going to update an app on my phone, I was presented with this:
+[What the cinnamon toast fuck is this?]($image.asset('sort-life-screenshot.jpg').size(800,0))
+
+If you're anything like me, this makes you sick to your stomach. It caused something
+visceral enough in me to start thinking about this blog post.
+
+2025 has been a heavily mixed bag of a year for me, something I plan to write about near
+Christmas, but for various reasons (many self-inflicted, some outside my control, and the
+rest just life being life) one of my main emotions this year, or at least the one I've
+remembered the most, is loneliness. There's no "woe is me" coming here, it's just how
+things have shaken out.
+
+So when I saw this advertisement, essentially screaming at me "your life really is messed
+up! The only recourse to your sad existence is our slop generator!" (embellishment mine),
+it upest me. Deeply. It seemed to worm its way into my head, bringing all of those
+terrible, awful feelings of loneliness and worthlessness and despair to the surface in an
+instant. Because if my life really does need an "action plan" (side note: gagged in my
+mouth even quoting that), maybe there is something truly deeply wrong.
+
+But worry not! OpenAI has the answer to all my problems! Their magic black box will help
+me get my worthless meatbag life sorted out! It will get me to that "action plan" (again,
+gag)! My measly existence may be worth something after all! Provided, of course, that I
+pay them a small monthly fee so that their stupid text predictor continues to work, which
+I'm sure they'll try to sell me on off the rip, forever locking me in to dependence. Good
+thing they put that little "In-App Purchases" warning that you definitely don't have to
+squint to see /s.
+
+I'm being dramatic on purpose here, of course. It may shock you to learn that I did not,
+in fact, "sort out my life with ChatGPT." Instead, I did what our species has done for
+hundreds of thousands of years and sat down and tried to think about my problems and how
+to solve them (or let them go, in some cases). Because as it turns out, the mushy wrinkly
+ball that's the product of billions of years of evolution beneath my thick skull is pretty
+fucking good at doing that. And it doesn't require that I give money to something that
+definitely could not give less of a shit about my well being. If I want to pay for that, I
+will give money to another real, physical human person who does give a shit, and has spent
+their life & career doing so for others (therapy good!).
+
+Anyway, fuck off with your stomach churning advertisements Altman.
+
+[]($section)
+## Am I Shouting Into the Void?
+```=html
+<blockquote class="mastodon-embed" data-embed-url="https://facts.computer/@computer/115567282849485159/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;"> <a href="https://facts.computer/@computer/115567282849485159" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75"><path d="M63 45.3v-20c0-4.1-1-7.3-3.2-9.7-2.1-2.4-5-3.7-8.5-3.7-4.1 0-7.2 1.6-9.3 4.7l-2 3.3-2-3.3c-2-3.1-5.1-4.7-9.2-4.7-3.5 0-6.4 1.3-8.6 3.7-2.1 2.4-3.1 5.6-3.1 9.7v20h8V25.9c0-4.1 1.7-6.2 5.2-6.2 3.8 0 5.8 2.5 5.8 7.4V37.7H44V27.1c0-4.9 1.9-7.4 5.8-7.4 3.5 0 5.2 2.1 5.2 6.2V45.3h8ZM74.7 16.6c.6 6 .1 15.7.1 17.3 0 .5-.1 4.8-.1 5.3-.7 11.5-8 16-15.6 17.5-.1 0-.2 0-.3 0-4.9 1-10 1.2-14.9 1.4-1.2 0-2.4 0-3.6 0-4.8 0-9.7-.6-14.4-1.7-.1 0-.1 0-.1 0s-.1 0-.1 0 0 .1 0 .1 0 0 0 0c.1 1.6.4 3.1 1 4.5.6 1.7 2.9 5.7 11.4 5.7 5 0 9.9-.6 14.8-1.7 0 0 0 0 0 0 .1 0 .1 0 .1 0 0 .1 0 .1 0 .1.1 0 .1 0 .1.1v5.6s0 .1-.1.1c0 0 0 0 0 .1-1.6 1.1-3.7 1.7-5.6 2.3-.8.3-1.6.5-2.4.7-7.5 1.7-15.4 1.3-22.7-1.2-6.8-2.4-13.8-8.2-15.5-15.2-.9-3.8-1.6-7.6-1.9-11.5-.6-5.8-.6-11.7-.8-17.5C3.9 24.5 4 20 4.9 16 6.7 7.9 14.1 2.2 22.3 1c1.4-.2 4.1-1 16.5-1h.1C51.4 0 56.7.8 58.1 1c8.4 1.2 15.5 7.5 16.6 15.6Z" fill="currentColor"/></svg> <div style="color: #787588; margin-top: 16px;">Post by @computer@facts.computer</div> <div style="font-weight: 500;">View on Mastodon</div> </a> </blockquote> <script data-allowed-prefixes="https://facts.computer/" async src="https://facts.computer/embed.js"></script>
+```
+
+Last week, I was at my normal cafe, working remotely, when the [recent Cloudflare
+debacle](https://blog.cloudflare.com/18-november-2025-outage/) happened. This largely did
+not matter to me other than being a minor annoyance for a couple of hours, but the woman
+at the table next to me turned to me and asked me if ChatGPT was down for me as well. This
+turned out to be a common refrain, and I heard a smattering of other versions throughout
+the cafe as well. I explained to her that no, it was just a Cloudflare outage. Then tried
+(poorly) to explain what Cloudflare is, then tried to explain what DNS is (at this point I
+had assumed it to be a DNS problem on Cloudflare's end), eventually circling back around
+to "so yeah, you can't reach ChatGPT because a different tech giant is currently shitting
+itself."
+
+> []($block.attrs("author-note"))
+> Before I go any further on this section of the rant, I'd like to quickly clarify that
+> this woman is another regular at this cafe, who I have talked to before, and is a lovely
+> person and extremely smart. I mean this with no ill intent towards her at all, it was
+> simply a good narrative framing of my wrath.
+
+When I was done, she made an offhand comment about how she wasn't sure how she'd get any
+more work done today without ChatGPT, half-joking I think. And I just have to say: really?
+Am I just yelling onto deaf ears? Is this really such a vital technology for others that
+it's that critical to doing... anything???
+
+Look, I'm all for using tools that make your job easier. Word processers fix your stupid
+typos. Dictation systems (which often run on *useful* forms of machine learning!) make
+note taking and stream-of-thought capture trivial. And a million other examples. But those
+things are all what I would describe as **augmentative** thinking tools. The human is
+still the one who has to produce the actual idea, then express it themselves. LLMs take
+away most of this. Sure, there's an argument to be made that there's still human input at
+the prompt stage, but crucially *that's where it seems to end.* Gone is the refinement
+necessary when trying to express that set of neuron signals as something that other people
+can understand, gone is the care and craft that contributes to making things. Instead, a
+vauge idea can slop out something that looks good on the surface, but provides nothing of
+any actual nuance or interest as soon as you peel away veneer of word vomit and emojis.
+
+LLMs are, and I will die on this (hopefully not super crazy) hill, ***fundamentally
+incapable of producing anything novel.*** Because they cannot, by the nature of how they
+work. You need a human to do that. And I think that offloading the
+text/image/video/whatever generation to these stupid things immediately invalidates any
+reasonable ability of the "creator" to claim novel intent. A word processer can correct
+your typos, but it still processes *your words.*
+
+[]($section)
+## The Part Where I Rant About Writing Code (Again)
+I just want to write code. It's fun. I like making the computer do magic by giving it a
+stream of arcane commands and then it shoves around a bunch of electrons and makes the
+lights go on and off real fast and I get to clap my hands like a little baby and be entertained.
+
+I just want to write code.
+
+I don't *want* to "manage a fleet of agents." I don't *want* to "be an architecht, not a code
+monkey." I don't *want* to "make all my ideas come to life in 1/10th the time."
+
+I just want to write code.
+
+Look, the easy response here is "Well then just do, idiot, no one is *forcing* you to use
+these things!" That is, technically, true. No one is forcing me. But every fucking single
+mother fucking day, I am inundated with these things. At work, from friends in the
+industry, from the forums I otherwise enjoy frequenting, from advertisements that slip through my
+many layers of blocks or that I can't avoid out in the world, or any number of other
+things that I have no control over. That's life, I get it, I just do my best to filter it
+out. But man, is it depressing and grating.
+
+I. Just. Want. To. Write. Code.
+
+It is *rewarding* to master that skill. It feels *good* to get into that flow state, to
+fucking ***build*** something, MYSELF, not to manage some nightmare-fuel factory line that
+trips over itself at the first sign of actual complexity. I want to be **proud** of the
+things that ***I*** make, the things I ***learn***, not show off some god damn
+Frankenstein's monster of duct tape that has a veneer of quality and is a festering pile
+of rat shit on the inside. Are there good quality projects that have been built with LLM
+assistance? You bet, [ghostty](https://github.com/ghostty-org/ghostty) is the first that
+comes to mind. But the much greater (or maybe just much louder) set of stuff I've
+encountered, both in OSS and (depressingly) at work, is rat-shit-in-a-suit. It's code
+vomit to get the job done, and nothing more. And sometimes it doesn't even get the job
+done.
+
+I know that it's not everyone. And I also know that there are lots of extremely competent
+engineers, many that I know personally, that use these things in the *right* way, and that
+produce just as well-crafted software as they did before the current age of misery. But
+the cost is that now I have to interact more and more with the other side of that coin,
+where the craft isn't respected. And that, one last time, *fucking blows massive shitty
+nards.*
+
+I am not a brilliant engineer. I'm probably pretty average, all things considered,
+maybe a bit better at a few things than most people and a bit worse at others, because
+that's just how skill works. But I *earned* that being average, and when this bubble
+bursts (when, not if), or if all of these things suddenly disappear into a black hole
+singularity tomorrow, I can at least be happy that I wouldn't suddenly drop to my knees in
+a Wal-Mart as I watched my so-called "skill" drain away.
+
+`/end-rant`
