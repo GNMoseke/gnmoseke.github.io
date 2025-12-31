@@ -1,0 +1,260 @@
+---
+.title = "2025 is Dead, Long Live 2026",
+.date = @date("2025-12-31T13:00:00+01:00"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "It's a year in review page but with lots of words instead of an instagram story layout.",
+.tags = ["Software Engineering", "Code", "Personal", "Reflection"],
+---
+
+[]($section)
+# My 2025
+2025 has been a bit of an oddball year for me. As of Christmas, I've now left two
+different jobs in the span of a year, the first time from the first company that ever paid
+me a salary and that taught me a lot about the basics of being a SWE, and the second from a
+company that taught me that I'm a pretty good engineer, actually, and also that I need to
+care about the code I'm writing. I'm now entering a period of a couple of months off to
+let myself recover from self-imposed burnout, and to take some time to really figure out
+what I actually want from myself. Basically I'm having a miniature quarter-life crisis (at
+least I *hope* it's quarter-life, I would really love to live across 3 different
+centuries).
+
+> []($block.attrs("author-note"))
+> I feel that it is only fair to preface this next bit with an acknowledgement that I'm a
+> relatively wealthy straight white dude living as an expat in objectively one of the most
+> stable & safe countries on the planet, so I understand that I'm coming from a place of
+> privelege. I earned my skill, but the metaphor I use is that I started the 100m sprint
+> at the 10m line. Anyway, that doesn't mean I'm not allowed to be human and have emotions
+> and write about them, but it would feel disingenuous not to at least call it out.
+
+A little over a month ago, in my [inevitable rant about LLMs](llms-loneliness-and-learning),
+I wrote that one of the predominant things I felt this year was loneliness. To be honest,
+I'm not really 100% sure why this was (other than the fact that my romantic life this year
+was a pretty heavy tumble from 2024). I spent a considerable amount of time with my
+friends, both in the Netherlands and back in the States, both virtually and in-person. I
+talked to my family often, I took the opportunity to do new things more than in previous
+years, I can speak Dutch to a level that is no longer embarrassing (most of the time,
+still called a baby "spicy" instead of "cute" by mistake), and I finally got to acutally
+travel around Europe this summer.
+
+But still, something this year, especially towards the end of it, just hasn't felt right.
+Having stewed on it for the last few weeks, I think it's a combination of a lot of things:
+* Being burned out at both jobs, and especially the second one not at all turning out to
+be what I thought it would from the interviews.
+* I ran less this year than I did in both previous years (the only 2 for which I have
+stats, since 2023 is when I really started to get into distance running). Even though I
+(just barely) crossed 1000km, my total distance is noticably less than 2024 or 2023 (by 80
+and 230km, respectively).
+* I feel like I've just been inconsistent at most things through this year. I'll pick
+something up for a few weeks or months only to let it slowly be abandoned, then repeat
+with something else. This is a big thing I want to work on next year: consistency. I'm
+going to talk about that more later on in this essay, but I want to stick to things more.
+
+Anyway, the good news is that the Earth has completed one more loop around the Sun, and
+even though the choice of when a "New Year" is may be completely arbitrary, it serves as a
+great motivator to think about who I was and who I want to be. And it means everyone and
+their mother has a "Year in Review" stats page for you. And I love stats. So let's do some
+stats.
+
+[]($section)
+# Stats!
+I like them. Here are a selection of ones that I care about.
+
+## Personal/Miscellaneous
+* As mentioned above, I ran 1001.3km in 2025. Lower than previous years, but at least I still
+got the Megameter!
+* Of those runs, 2 were marathons: one in Spain with a time of 4:31:41 and one in Scotland
+with a time of 4:34:45. Not the time I was hoping for on either, but at least I'm
+consistent! And they gave me canned soup at the end of the one in Scotland. I don't know
+why.
+* My local [wakatime server](https://github.com/muety/wakapi) says I spent 75.2 hours in neovim this
+year since August (when I started running it), mostly in markdown (because I keep my notes
+in a git repo). Beyond that though, my top 3 languages are, in surprising order, [`gleam`](https://gleam.run/),
+[`rust`](https://rust-lang.org/), and [`zig`](https://ziglang.org). To be fair, this is skewed
+because I did Advent of Code (or the few days I could find the time) in gleam, and I spent
+a good amount of time doing [ziglings](https://codeberg.org/ziglings/exercises) to play
+with the language. Combine that with the fact that I tend to just leave multiple projects
+open in different tmux windows at once, and I think it's fair to say these stats are
+definitely not that accurate. And they don't include code from `$dayjob`, which would
+overwhelmingly dominate. Still interesting!
+* My personal music indexer-but-also-stats-tracker thing, [eurydice](https://codeberg.org/garrettm/eurydice),
+shows my stats since mid-July (when I finally suceeded in getting rid of spotify) with
+KGLW (unsurprisingly) dominating:
+
+[Note that the "Total X in Eurydice Collection" rows are a bit misleadingly named. Those
+are the total counts that I've played, not the overall in my entire collection (which is
+shown in the second table). I need to update the code.]($image.asset('eurydice-stats.png').size(800,0))
+
+## Games
+I played a bunch of games this year, though not as many as I'd like! In generally
+chronological order:
+* **Tactical Breach Wizards** was a fantastically funny and excellently paced
+puzzle/strategy game that I played on my Steam Deck in January. Recommend!
+* **Sekiro: Shadows Die Twice** is a sad one, in that I DNFed on two separate attempts to
+get through it. I *love* the parry mechanic, but the game so often throws something that
+breaks that core loop at you that I just got frustrated and gave it up. Perhaps next year
+it will stick.
+* I've had a **Baldur's Gate 3 (Dark Urge Playthrough)** going with one of my best friends
+since the very start of the year. We're very close to done, but coordinating time to play
+across two continents is a little bit of a trick. Durge is an absolute blast though, and
+shows off so many things I didn't even know existed in the game, even after over 200 hours
+of playing it.
+* **Haste** was my game of choice while travelling to Spain. It was... fine. The core
+gameplay is very fun, but I don't get why it had to be a roguelite, and it gets a bit
+stale quickly. Worth what I paid, and a good pickup especially on Deck for a solid few
+hours.
+* **A Highland Song** was dissapointing. I *love* the art style, and the music is another
+highlight (enough so that I tracked down the main band and bought their entire
+discography), but the game is just kinda frustrating. Short, thankfully, but a little sad
+about this one.
+* **A Short Hike** is recommended everywhere as a perfect "cozy" game, and it did not
+dissapoint even in the middle of summer. Played it in one shot and had a great little time
+with a great little game.
+* With Silksong coming out this year, I replayed **Hollow Knight**, this time also doing a
+lot of the optional content I skipped on my first go through. Still didn't come anywhere
+close to 100%, and I haven't even started Silksong, but it was good to see that I am less
+sucky at hard games now.
+* The big boy. The one I knew was going to be my main time sink this year. I put 91 hours
+into **Hades II** this year, spread among the various early access patches and then a huge
+amount on full release. I also 100%ed the achievements on Steam. It lived up to everything
+I hoped it would be, and I will die on the hill that it got robbed for Game of the Year at
+the Game Awards.
+* **Dispatch** was a surprise out of left field, in that I forgot all about it after it
+was announced last year. But the cast is amazing, and I am delighted to say that it was so
+good that I played it all the way through in one sitting the Saturday after the last
+episodes released. Then I got up on Sunday and did it again, with the other main set of
+choices possible. It kicked ass. If it weren't for Hades II coming out this year, Dispatch
+would be my GOTY.
+* **Senua's Saga: Hellblade II** was a dissapointing way to end the year, sadly. As
+expected, it was visually stunning (I'm not sure I can think of another game that takes
+photorealistic environments to such heights), and the acting was excellent. Sadly, the
+game is just unneccessary. I loved the first one because it's a tightly paced story with a
+satisfying arc, even if the gameplay is lacking. The sequel throws away the good pacing
+and character development from the first game in favor of... also having boring and
+annoying gameplay. Maybe get it if it's on sale for 5 bucks, but it's not worth any more
+than that.
+
+[]($section)
+## Books
+My media tracker says that I read 22 books this year, which sounds about right. It may be
+a handful more than that because I fucked up the tracker database partway through the year
+and had to manually re-import some stuff from memory, but 22 is the number I'm going to
+stick with. I definitely favored the fantasy genre (because that's the kinda guy I am),
+but there's a fair smattering of other stuff in there as well. I'm not going to list them
+all out here, but some particular highlights:
+* The **Dungeon Crawler Carl** series is absolute top tier junk food reading, and I mean
+that as a very deep compliment. I absolutey devoured all 7 books this year (pun intended),
+many of them read cover-to-cover in a weekend. They might not be for everyone, but they
+definitely scratched a particular itch for me.
+* I read **Hyperion** for the first time this year after having it on my "Sci-Fi classics
+to read" list for multiple years, and can confirm that it is excellent. The tale unfolding as a
+series of intertwined novellas told during a pilgrimmage is a great framing device, and it
+definitely earns its praise. I was sadly less impressed with the sequel, but maybe I'll
+revist the series in the future.
+* **Blood Over Brighthaven** came towards the later half of the year, when I was getting a
+bit tired of the fantasy kick I'd been on for a while, and blew everything else out of the
+water. It achieved the rare feat of making me actually drop my jaw at the major twist, which
+gives it high points.
+* I re-read **Night** in one afternoon after not reading it for over a decade. It's hard
+to get through for such a thin little volume, and I had to stop at a few different points
+to let myself come back to my warm, comfortable apartment and appreciate it more than I
+really ever have. That sounds a little bit eye-rolling, I know, but I really think that
+Night is something every single person should read, especially as an adult.
+
+[]($section)
+## Movies & TV
+I made a concerted effort to not binge watch as much stuff this year, and have been
+largely successful! Even though there's not much in this bucket, I do want to call out a
+handful of things that really stood above for me this year:
+* **A Separation** was something I watched with a few friends on one of their
+recommendations, and holy *fuck* is it depressing, but holy *fuck* is it perhaps one of
+the most human movies I've ever seen.
+* **The Mighty Nein** mostly lived up to my expectations of it as a fan of Critical Role
+(and in particular the second campaign, which I consider the peak of their production).
+I'm already excited for the second season.
+* I rewatched **Spinal Tap** on Christmas after having more wine than I probably should
+have, and can confirm that it's top 3 funniest movies ever made. Normal movies, they don't
+go to 11.
+
+[]($section)
+# On to 2026!
+So there we go, another year gone. Time marches ever forward, yadda yadda yadda. I've
+never been a huge fan of New Year's "Resolutions," because I feel that the term puts too
+much pressure on changing too many things all at once. Instead, I like to set out New
+Year's "Goals" for myself, which is largely the same thing but the semantics make me feel
+better about adjusting or dropping them as the year goes on. So here's mine for 2026:
+
+[]($section)
+## Code
+I write a lot of code, profesionally and as a hobby. Sue me, this gets its own section.
+
+First off, I want to make it a rule for myself that **ALL personal projects (other than bugfixes in
+existing stuff) I work on this year are in either `zig` or `gleam`** (and I may end up
+dropping gleam since it's much harder to just make a static binary of a thing), with the
+exception of things like nvim plugins that require a specific language. I've written about
+this [before](seniorish), but I feel like my technical expertise is largely constrained to
+one language (swift), with a smattering of others that I'm just OK at. I want to get
+really familiar with at least one other language, and `zig` in particular presents an
+opportunity to work with low level primitives while also not making me write C.
+
+The other big thing I want to focus on this year is trimming down my dependency stack in
+both my own projects and in terms of plugins and things for tools that I use. The latter
+half of this year has had a couple [high-profile supply chain
+attacks](https://news.ycombinator.com/item?id=46032539), largely from `npm` (which I
+thankfully don't use), but it has made me take a more critical look at how trusting I am
+with my own stuff. To use my [nvim config](https://codeberg.org/garrettm/dotfiles/src/branch/main/nvim/.config/nvim)
+as an example, I currently (at time of writing and in the linked commit) have
+[20 plugins installed](https://codeberg.org/garrettm/dotfiles/src/commit/0403c45fe1cf10d15f150d9019e6ae03291a7581/nvim/.config/nvim/lazy-lock.json).
+In the grand scheme of nvim configs out there this is actually pretty low, but even still
+it's higher than I'd like, especially since there are at least a couple in there that I
+don't use super often (though you can prise `oil.nvim` from my cold, dead hands). I'd like
+to take the time to narrow that set down to just the essentials, and also take the
+opportunity to replace a couple of them (notably `obsidian.nvim`) with lightweight
+versions that I write myself, to get familiar with the nvim lua API. Similarly, for my
+personal stuff (and this is another point in the "use zig" column), I'd like to keep my
+package dependencies pretty much empty, opting for code I write myself, the stdlib, or in
+rare cases an established, trustworthy library like `ffmpeg`. It just seems like the thing
+to do for a little while, and it'll also mean that I get some fun diversions to build my
+own personal stdlib/utils library for myself going forwards.
+
+[]($section)
+## Personal
+These are the real goals that I want to put some effort towards this year, stuff that I
+want to look back on and be proud of.
+* Off the bat, I want to stop wearing my smartwatch all the time this year. I have a
+garmin watch that has basically never left my wrist since I purchased it 3ish years ago,
+and though I am impressed with the overall quality of the device (barring Garmin's batshit
+decision to gate their API to approved enterprise applications only), I've been steadily
+finding that it puts me into a state of "analysis paralysis" about health statistics that
+don't mean anything. Especially in the later half of the year, I've been putting far too
+much stock in the "body battery" and "stress level" measurements that they purport to
+record, and I think it's unhealthy. Besides, I have a very nice analog watch that was
+a gift when I graduated college, and I'd like to go back to actually getting some style
+points out of that.
+* I picked up learning the guitar again towards the end of 2025 after abandoning it as a
+teenager. I'm still not putting as much time into it as I'd like, so for 2026 I'm making
+it a goal to be able to play [Spin the Wheel](https://www.youtube.com/watch?v=opy_y0dkwmk&list=RDopy_y0dkwmk)
+(or a slightly simplified version). I love the song, and it's a good mix of chording and
+picking.
+* On the running side of things, I want this to be the year where I finally run a 3:30
+marathon. My PR is 3:55 and change, and I know I have the fitness to go significantly
+faster, it's mostly about really pushing myself to stick hard to a training plan and suck
+it up and do the speedwork (which I hate). I have a race in mind already for September.
+* I'd like to make it a point this year to only get updates for things via RSS feeds. By
+that I mean no youtube subscriptions, no reddit follows, etc, just a curated list of RSS
+sources for things I actually care about to try and reduce the amount of worthless slop I
+ingest into my brain. I've already started down this route and it's working pretty well,
+so I'm anxious to see if I can stick to it.
+* Finally, a bit of an oddball one out of left field that I have no real stake in but might
+be fun: I'd like to see if I can train myself to be ambidextrous this year. I don't really
+know why I want to do this, other than that it seems useful and like a neat party trick.
+I'm right-handed, but for some reason choose to brush my teeth with my left hand, so how
+hard can it be to do everything else with it too?
+
+# The End Bit
+It felt weird to abrubtly end on saying that I want to teach myself to be ambidextrous, so
+this section is the sort of end bit that's supposed to tie it all together. I, like
+everyone else on the planet, have no idea what I'm doing (except when it comes to flipping
+pancakes, I'm really good at that). I hope you've all had a lovely holiday season and are
+looking forward to everything the new year brings. Thanks for reading, and hi Mom!
