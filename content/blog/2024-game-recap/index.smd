@@ -6,8 +6,7 @@
 .draft = false,
 .description = "What ate most of my limited free time in the evenings of last year.",
 .tags = ["video games", "retrospective", "personal"],
-.custom = { "pinned": true }
---- 
+---
 
 >[]($block.attrs("author-note"))
 >This post was heavily inspired by my good friend Lane's retrospective last year, which you can find
@@ -159,7 +158,7 @@ much of an impact the story had.
 [Image Credit: https://www.hollowknight.com/]($image.asset('hollow-knight.jpg').size(800,0))
 Truly a painting come to life, the art and world in Hollow Knight are its crowing achievements. Every enemy is lovingly animated, every
 scenic vista is a moment to stop and drink in the ambiance. The combat and platforming are razor tight and responsive, and every swing of the nail or dash of the cloak is snappy and satisfying. I
-didn't find any of it to be particularly innovative: it knows what it is and sticks to it, which isn't a bad thing. 
+didn't find any of it to be particularly innovative: it knows what it is and sticks to it, which isn't a bad thing.
 
 My only relatively minor gripes are the lack of variety in interesting charms (once I had a good build I basically stuck to it for the whole
 game) and the weird dream nail mechanics. Lore wise and in some spots the dream nail makes plenty of sense, but it doesn't really do
@@ -254,7 +253,7 @@ beaten it in my first playthrough.
 []($section)
 ## God of War (2018) & God of War: Ragnarök 🔄
 [Image Credit: https://www.playstation.com/en-us/games/god-of-war-ragnarok/]($image.asset('gow.webp').size(800,0))
-A masterclass in narrative, animation, acting, gameplay, music, everything. 
+A masterclass in narrative, animation, acting, gameplay, music, everything.
 
 This was my second go around with both of the Norse-era God of War games, and I was happy to find that they both held up incredibly well on
 replay, and I was just as invested as the first go. I think the first game lacks a bit in enemy variety, and the second has some tedious

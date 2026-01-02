@@ -6,6 +6,7 @@
 .draft = false,
 .description = "It's a year in review page but with lots of words instead of an instagram story layout.",
 .tags = ["Software Engineering", "Code", "Personal", "Reflection"],
+.custom = { "pinned": true }
 ---
 
 []($section)
