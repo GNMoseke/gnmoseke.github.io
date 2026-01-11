@@ -1,0 +1,171 @@
+---
+.title = "A Rambling Review of Clair Obscur: Expedition 33",
+.date = @date("2026-01-11T12:00:00+01:00"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "2025's GOTY and I have various thoughts",
+.tags = ["Rambling Review", "Video Games"]
+---
+
+>[]($block.attrs("author-note"))
+> Because I now have a [ton of time](2025-year-in-review) to get through my enormous game
+> backlog, I've decided that I'm gonna start doing a series called "Rambling Reviews"
+> where I do exactly that. Maybe it'll only have one entry (this one). Maybe I'll become
+> the pre-eminent games journalist on the planet. Who's to say.
+
+---
+
+>[]($block.attrs("author-note"))
+> Everything below this point contains ***HEAVY SPOILERS.*** You have been warned. There
+> are also spoilers for The Witcher 3: Wild Hunt, though that game is over a decade old at
+> this point.
+
+---
+
+If I had to describe Clair Obscur: Expedition 33 (hereafter just "E33" or "Clair Obscur" because I'm not typing
+all that shit again) in two words, it would be ~~"Baguette Anime"~~ "Flawed Masterpiece." I
+think it does deserve the vast majority of the praise it's garnered, but I also think that
+it has a handful of underlying flaws that just barely keep it from being the an all-timer,
+at least for me. I should also lead out by saying that I only began the game *after* it
+had already swept the Game Awards, so there's obviously some level of bias from my side
+going in, knowing that it was so well regarded.
+
+Most of my thoughts are going to center around the narrative, because that's the part
+of the game that I have the most to say about, but I'd like to first call out a few other
+areas:
+* First and foremost, the soundtrack absolutely deserves the praise. It fucks. It fucks
+**hard.** [Lumière](https://www.youtube.com/watch?v=LpNVf8sczqU&list=RDLpNVf8sczqU) is a
+generational track.
+* Visually E33 also makes a pretty defining statement. The style is pretty breathtaking,
+and I'm glad they leaned hard into the over-the-top animations especially during combat.
+* On the note of the combat, I also have to give the game credit for making me enjoy a
+JRPG. It's engaging enough that I didn't get bored for the entire 30-odd hours of the main
+story, though it did start to lose my interest in the post-game content, where it turns
+into a bit more of a damage-sponge grindfest than I'd like.
+* I have one additional comment about the combat system, which is that though I loved the
+parry mechanic, there needed to be more risk to it. Basically there is no reason to ever
+dodge, it is always objectively better to parry, especially because the timing difference
+between the two is so small. I would have preferred if the parry did something like only
+give AP on a full counter, or made you take increased damage on a fail. Of course,
+parrying feels cooler anyway, but it just made dodge feel... flacid.
+
+Now, lets talk about the main meat of E33: the story.
+
+From a cliffnotes perspective, I found that the story opens on an extreme high note,
+stumbles somewhat in the middle (largely in Act II, though we'll get to that in a bit),
+and then comes back to a crescendo at the end. In particular the choice of endings is
+masterfully done, so much so that Clair Obscur wins the rare praise of making neither
+option feel "correct" in the way that a lot of games do. I personally chose the Maelle
+conclusion, and I'll come back to that in a bit, but the choice was so difficult that
+immediately after finishing I went and watched the Verso ending just to see it. I very
+much hope that if/when the game gets a sequel, they *don't* choose one option as the
+"canonical" one, because that choice is thought-provoking in a way that not many things
+are. But again, we'll get to that.
+
+E33 starts on a high note. For such an out-there concept and world, the prologue is pretty
+masterful in getting you hooked quickly, and I really cannot emphasize how well it follows
+the "show, don't tell" rule. This is a problem I tend to have with other RPGs, especially
+JRPGs: they all like to slap you in the face with a huge cutscene or "tutorial" character
+that dumps an encyclopedia of information on you off the rip, enough so that the world
+starts to feel generic and boring. Clair Obsucr does not do this. Gustave and Maelle's
+introduction, the walk through Lumière, and finally the gut punch of Sophie's Gommage are
+all masterfully done, getting you so immersed so fast that it's kind of a magic trick.
+Similarly, the final dinner before Expidition 33 sets out, the massacre on the beach, and
+Gustave re-uniting Lune, Maelle, and Sciel are perfectly paced, spread out just enough to
+let you soak in the atmosphere without getting too bogged down in meaningless exposition.
+
+Act I keeps this up all the way to the very end, where we come to the start of the
+stumbling block of E33 for me.
+
+I think that Gustave's death and Verso's introduction is mishandled, and that's the major
+flaw of the story in my opinion. To elaborate, I think that there are 2 major issues:
+1. Gustave dies too early. I understand that the narrative is replacing Maelle's brother
+with Alicia's brother in Verso, but I don't think there was quite enough time to build up
+the relationship between Maelle and Gustave properly. I also think that it would have been
+far more interesting to have Verso and Gustave both in the party at the same time, to sort
+of bridge that gap as more of the world outside the painting reveals itself.
+2. I also think that making Gustave & Verso the "main" characters (going by who you play
+at camp) kills some of the gut punch, though that may sound counter-intuitive at first.
+Especially when you now play as Verso, someone you as the player know nothing about, it
+becomes hard to connect as much, at least until you get deeper towards the end of Act II.
+
+I think both of these problems could have been solved with one very simple tweak: make
+Maelle the main character in camp rather than either of her brothers. There's a valid
+counterargument that [a friend](https://www.youtube.com/@wordforwordnerd) made to me when
+we were discussing it, which to quote her is:
+
+> *"I think it’s more that Verso is the main character of E33, but Maelle is the main
+> character of Clair Obscure as a series (cus there’s definitely more of these coming)"*
+
+This is a fair point, but for me it still falls down a little in that the way that Act III
+is structured is such that the game puts more focus on the grief of the Dessendre family
+and in particular the guilt and suffering of Alicia/Maelle than it does on anything else.
+Obviously the catalyst of all of that is the last piece of Verso's soul still trapped in
+the painting, and the painting-Verso's desire to finally be laid to rest, but it was my
+reading that Alicia was always meant as the main protagonist.
+
+I'm getting a little ahead of myself though. To finish my thoughts on Act II, it just
+feels like the excellent pacing of the rest of the game stumbles for a while. You spend
+time meeting Monoco (more on him in a minute), then trying to find a way to break the
+barrier around the paintress by fighting two giant bosses, then fighting your way to the
+top of the monolith to confront her. During all of this the game has a variety of
+"reveals," but the problem with all of them is the same: they're predictable. Maybe it's
+just me, but I saw 90% of the twists coming hours before they happened, and then had to
+roll my eyes a bit as the characters took multiple cutscenes before they finally come to
+the same realization. The problem here is that this is a rare stumble where E33 goes too
+far past foreshadowing, instead opting for a wink-wink-nudge-nudge style that dulls a bit
+of the fun of the story's twisting path.
+
+The last thing I'd like to say about Act II before we move on from my negativity is that
+Monoco is a sad weak point of a character for me. Don't get me wrong, some of the best
+one-liners in the game are Monoco lines, but largely the character feels like comic
+relief and little else. Even his more emotional moments in Act III with Noco's
+ressurection and his status as Verso's oldest friend just don't feel as weighty or
+satisfying as the character quests with Lune, Maelle, and Sciel. It's another reason I
+think that it would have been better to delay Gustave's death to the end of Act II
+instead, since I think it would have presented many more interesting character
+interactions, and the comic relif role was already filled by Esquie.
+
+Anyways, the game thankfully absolutely sticks the landing in Act III. Everything I just
+criticized above gets turned on its head after you defeat the Paintress and everyone gets
+Gommaged. I happily said to myself "well, now I have absolutely no idea what's going to
+happen!" I'm going to gloss over most of the third act here and skip to the ending
+sequence, but I do want to emphasize that everything leading up to that ending sequence is
+really good: the resurrection of Lune and Sciel put a lump in my throat, and the sequences
+with the Dessendre family outside the canvas and with Renoir inside it are written better
+than a lot of books I've read.
+
+To the ending though, because that's where Clair Obscur really shines. As another friend
+put it, it's one that can only be done in a video game, which makes it pretty special. To
+me, the single most impressive thing about the ending choice is that it is truly one of
+the most morally grey choices I've ever personally experienced in a game. There's no
+"right" choice. To contrast it to the Witcher 3, another game I adore, for example: Ciri
+becoming a Witcher is obviously the ending the game pushes you towards, enough so that the
+upcoming Witcher 4 makes it the canonical one. The option of Ciri becoming queen of
+Nilfgaard also makes narrative sense, especially in the context of the books, but you're
+very heavily pushed towards the Witcheress ending (as you should be, it's the best one!)
+
+E33's ending does not have that problem. One the one hand, you can choose to destroy an
+entire world of sentient people (and they are definitely sentient, the game goes out of
+its way to demonstrate that) in order to release the last piece of Verso's trapped
+soul, which desperately wants peace, and allows the Dessendre family to grieve and begin
+to heal, though Alicia will be left living a half-life with her injuries from the fire.
+Or, you can choose to give Alicia a new life within the world of the painting, one that
+was stolen from her in the real world, and keep the characters you've fallen in love with
+alive within the canvas, but at the cost of Verso never being able to truly pass on. It is
+a gut-wrenching decision, like the Matrix's red pill/blue pill on steroids.
+
+As I said above, I ended up choosing the Maelle ending because I couldn't bring myself to
+destroy the world inside the canvas, and maybe that says something about me. Either way,
+it suceeded in making me stew on the choice long after it was made, which is exceptionally
+high praise. The last game that I can remember doing that was Red Dead Redemtion 2, which
+I feel is a similarly flawed masterpiece in its own right, so Clair Obscur is in excellent
+company. And it really is a special thing to see a story told in the art form of games
+that can only be told that way.
+
+To finish off, E33 absolutely deserves the praise it got, and I do think it's a
+pretty special game and one that I will happily recommend to anyone. 2025 was a pretty
+especially outstanding year for games, and so for Clair Obscur to stand above them all,
+even if it's not my personal GOTY, is saying a lot. It reminded my of why I fell in love
+with games in the first place, and that's really special.
