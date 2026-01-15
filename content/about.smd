@@ -4,7 +4,7 @@
 .author = "Garret Moseke",
 .layout = "page.shtml",
 .draft = false,
---- 
+---
 
 Hi! I'm Garrett, and I'm bad at writing "About Me" pages. So here's some bullet points:
 * I'm a software engineer with experience mostly in backend services and a deep-seated fear of any system with more than 2 database technologies.
@@ -20,12 +20,13 @@ Hi! I'm Garrett, and I'm bad at writing "About Me" pages. So here's some bullet 
 * And some things I don't:
     * Car-centric infrastructure.
     * Sheer heights.
-    * Fat bikes. If you live in the Netherlands you know exactly what I'm talking about.
+    * Shitty coffee.
     * The Dutch winter.
 
-You can find me on [GitHub](https://github.com/GNMoseke) if you're interested in what I'm working on currently or here
-on my website for whatever I feel like writing about. If you want to reach out by email,
-feel free to contact me at `yo` + `at_symbol` + `purpleshirt.dev`.
+You can find me on [Codeberg](https://codeberg.org/garrettm) (where most of my personal
+stuff lives) and [GitHub](https://github.com/GNMoseke) if you're interested in what I'm
+working on currently, or here on my website for whatever I feel like writing about. If you
+want to reach out by email, feel free to contact me at `yo` + `at_symbol` + `purpleshirt.dev`.
 
 >[]($block.attrs("author-note"))
 >**It should go without saying, but all opinions are my own.**
