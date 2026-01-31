@@ -1,0 +1,191 @@
+---
+.title = "January 2026, In Bullet Points",
+.date = @date("2026-01-31T17:00:00+01:00"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "Mostly to keep myself honest and also because stats.",
+.tags = ["Personal", "Reflection"]
+---
+
+>[]($block.attrs("author-note"))
+> I'm making it a point for myself to write double as much this year. In that spirit, I
+> figured I wanted to keep track of other little goals and things as the year goes on, so
+> this is the first of those reflections. I also think it's important to call out that I'm
+> under no illusions about "productivity hacks," "personal development strategies," or any
+> of that bullshit. This is just my own way of looking at where I was and what I was doing
+> at a specific moment in my life.
+
+# Stuff I Did
+## Ran
+* I ran a total of 73.5km, averaging 18.4km weekly.
+* This was a total time of 6:29:20 on feet, with my average pace sitting somewhere around a
+5:15-5:20 per kilometer, though this obviously varies based on how long the run was.
+* Correcting for Garmin's GPS being shitty, I did about 150m total of elevation for the
+entire month (most of which was one bridge). Lol. The curse of living in a country where
+half of it was reclaimed from the sea.
+
+## Played
+This was the first month in many, many months where I had free time to play games multiple
+days in a row (largely because I am wilfully unemployed for a bit but we'll ignore that
+part). So I got through a bunch of huge stuff I'd had on the backlog, most of it picked up
+during the Steam winter sale:
+* [*Clair Obscur: Expidition 33*](https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/), which I
+wrote my first [rambling review](rr-clair-obscur) about.
+* [*Indiana Jones and the Great Circle*](https://store.steampowered.com/app/2677660/Indiana_Jones_and_the_Great_Circle/),
+which I also wrote a [rambling review of](rr-indiana-jones-great-circle).
+* [*Absolum*](https://store.steampowered.com/app/1904480/Absolum/), a neat little
+beat-em-up roguelite. I've only cleared one full run and plan to keep playing it, but it
+has been a perfect Steam Deck game.
+* [*Unpacking*](https://store.steampowered.com/app/1135690/Unpacking/), a cute little
+indie game that shows up on lots of recommendation lists. It was nice and relaxing with my
+coffee for a few mornings, but nothing super special, though I can appreciate how it tells
+its story.
+* [*DOOM: The Dark Ages*](https://store.steampowered.com/app/3017860/DOOM_The_Dark_Ages/),
+which has you fight a giant cyborg Cthulu elder god in a mech suit because it is a good
+video game. Rambling review in the works on this one!
+
+## Read
+I finished 4 books in January:
+* [*A Wizard of Earthsea*](https://hardcover.app/books/a-wizard-of-earthsea), which I
+enjoyed, though it is definitely a very classic-style fantasy. I have the first 4 books
+in one volume, so I'm looking forward to returning to the series soon.
+* [*Red Rising*](https://hardcover.app/books/red-rising), which I've seen recommended
+everywhere. It was... a mixed bag. Definitely a page turner, but something about it just
+felt off to me. Maybe the main character being a bit of a [Gary
+Stu](https://en.wikipedia.org/wiki/Mary_Sue), maybe something with how uncomfortably the
+story seems to delight in brutality, not sure. I'll probably finish the original trilogy
+in the coming months, but I'm on the fence.
+* [*Empire of AI*](https://hardcover.app/books/empire-of-ai), which was fantastic even
+though it obviously confirmed most of my own biases against OpenAI. Still highly
+recommended reading as it is extensively researched.
+* I finally finished [*Designing Data Intensive Applications*](https://hardcover.app/books/designing-data-intensive-applications),
+which I bought months ago and have been slowly making my way through. Also excellent
+reading, though it is too technical to be my bedtime reading and that's my excuse for why
+it took so long to finish.
+
+I also read a ton of other stuff, largely articles from across the internet, probably more
+than I should have (but it is at least better than the amount of YouTube I was previously
+slamming, and I've all but cut out short-form content). Lots of it was very good, but
+there are two things I want to particularly call out:
+* [*The year of technoligarchy*](https://www.citationneeded.news/the-year-of-technoligarchy/)
+by Molly White is pretty sobering. Citation Needed is an excellent publication to
+subscribe to no matter what, but I found this piece especially good. A small quote from
+the end that at least brings a glimmer of hope:
+
+> And technoligarchs’ consolidation of power makes them visible architects of these
+> systems. When the economy they’ve hollowed out seizes up, when the markets they’ve
+> destabilized implode, when the legitimacy of the institutions they’ve captured
+> evaporates, and when everyday people suffer, their names are on all of it.
+>
+> We’re not all gonna make it. But neither, necessarily, are they.
+
+* I've also been making my way through *Harry Potter en de Steen der Wijzen*, the Dutch
+translation of the first Harry Potter book. At this point I can get through a single
+chapter in half an hour or so without having to really look up most of the vocabulary,
+which feels great. I'm expecting the first 3 books to be fairly handleable with my current
+level in the language (~B1), which hopefully gives me enough buffer time to keep
+practicing above and beyond.
+
+## Listened
+* I spent a lot of time listening to music this month, mostly on my desktop. I also updated
+[eurydice](https://codeberg.org/garrettm/eurydice) to let me get stats within certain time
+ranges (like a month), so here they are:
+
+```
+❯ eurydice stats --since month
+╭──────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 53:28:23                                                                                            │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 877                                                                                                 │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 864                                                                                                 │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 52                                                                                                  │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 43                                                                                                  │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Christopher Larkin - Hollow Knight (Original Soundtrack) - Mantis Lords: 4                          │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST - Main Theme Part I: 3                                        │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST - Cunning Cruel Crits: 3                                      │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST - The Cult Of The Absolute: 3                                 │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST - Sixteen Strikes: 3                                          │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Mick Gordon & Chad Mossholder - DOOM Eternal Original Game Soundtrack: 118                          │
+│ (By Total Track Listens) │ TheFatRat - TheFatRat Discography: 78                                                               │
+│                          │ Lorien Testard & Alice Duport-Percier - Clair Obscur Expedition 33 Original Soundtrack (Act II): 68 │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST: 62                                                           │
+│                          │ Lorien Testard - Clair Obscur Expedition 33 Original Soundtrack (Act I): 60                         │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Lorien Testard: 119                                                                                 │
+│ (By Total Track Listens) │ Mick Gordon & Chad Mossholder: 96                                                                   │
+│                          │ TheFatRat: 77                                                                                       │
+│                          │ Lorien Testard & Alice Duport-Percier: 63                                                           │
+│                          │ Borislav Slavov: 62                                                                                 │
+╰──────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+* I also listened to a lot of [Psychedelic Porn Crumpets](https://psychedelicporncrumpets.bandcamp.com/),
+but largely on my phone which unfortunately doesn't get pulled into the stats above. They
+are my home workout band of choice right now.
+
+## Built
+* One thing I really wanted to make sure I did this month was submit a contribution to a
+piece of OSS software that I use frequently. In the spirit of trying to focus on `zig`
+this year, I chose to make [this PR to `zine`](https://github.com/kristoff-it/zine/pull/194),
+which is the site generator I use for this very site, so felt apt.
+* I also converted all my home services to [quadlets](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html),
+something I'd been meaning to do for a while. As with every time I go to touch my home
+server infrastructure (in other words, ssh into the laptop in the corner), it was
+significantly eaiser than I had expected. This is largely because I intentionally expose
+nothing outside my local network so I get to skip a whole class of security stuff, but
+even still it feels much more robust now.
+* I also made some small [eurydice](https://codeberg.org/garrettm/eurydice) improvements
+for the stats for this writeup, as mentioned above.
+* As with every month, I tweaked my dotfiles endlessly. Highlights include a custom timer
+script that I've been getting great use out of, some cleanup of my nvim plugins, and in
+general a trend of simplification that I'm very happy with.
+* I started working on a small Discord bot which is breaking my "zig only" rule and using
+python because the library support for the discord API is so much better (and writing my
+own wrapper is tedium I don't want to undertake). Sue me. But I hope to finish it early in
+February so my friends and I can use it.
+
+# Stuff I Didn't Do
+Of course, I had plenty of other things on my goal/to-do/whatever list, lots of them
+personal enough that I don't want to list them on my blog. I did do a lot of them, but
+there was of course some stuff that sadly I missed out on, but that's fine. I never expect
+to have a "perfect" month, this is just a good time to reflect on if I care about any of
+it:
+* I intended to run 40km a week in January. I only managed to do this for one week, sadly.
+Though I did run every week, there's been an extreme cold snap here in the Netherlands
+(and a weirdly high amount of snow), so it's been much harder to drag myself out for
+anything more than a quick loop once or twice a week.
+* I aimed to eat only vegetarian this month. I broke this rule precisely once, when I was
+extremely tired after a very busy day and could not resist buying a burrito with ground
+beef. Still, I am very pleasantly surprised with how easy it was otherwise.
+* I made a concerted effort to not use any screens during any of my main meals, in an
+attempt to try and be a bit more present with my cooking (and also to cook more). This was
+a mixed bag, some days it went without a hitch and others I did sadly end up eating while
+reading or watching something. I want to keep working on it though.
+
+# Stuff I'm Gonna Do In February
+Which brings us to the shortest month! A lot of my goals from January are going to roll
+right over into February, but the shortlist of things that I really want to aim for is:
+* Run 40km a week, for real this time. It's not a question of fitness or motivation, I
+just have to drag my ass out into the cold.
+* I have an idea for a  short story that's been kicking around in my head for a few months
+now, and I want to finally actually sit down and write a draft of it. Maybe that'll appear
+here on my site, maybe I'll only send it to some close friends and family, or maybe it'll
+never see any other eyeballs. Who knows. None of those are possible if I don't write it
+first.
+* Similarly, I've had an application I've wanted to build for myself for long time that I
+just haven't written the actual first line of code for. I want to build a usable prototype
+for myself in February, especially because the sooner I get something working the more
+willing I'll be to keep hacking on it.
+* Lastly, I want to start branching out with my cooking. I consider myself a fairly decent
+home cook already, but I tend to make the same few things over and over when left to my
+own devices (Shakshuka, anyone?). This month I'm aiming to make one completely new thing
+every week, by just rolling a 200-sided die for a random country and making something from
+there (if I can find the ingredients).
+
+That's it for now, hi Mom!
