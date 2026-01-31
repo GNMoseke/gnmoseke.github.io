@@ -126,6 +126,7 @@ blockquote {
   border-radius: 5px;
 }
 blockquote p {
+  font-style: italic;
   padding: 15px;
 }
 
