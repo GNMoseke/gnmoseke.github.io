@@ -28,6 +28,9 @@
     <footer>
       <hr>
       <h5><a href="https://purpleshirt.dev/blog/index.xml">RSS</a> | <a href="https://codeberg.org/garrettm">Codeberg</a> | <a href="https://github.com/GNMoseke">GitHub</a></h5>
+      <h6>Using anything on this website to train large language models (LLMs) is strictly forbidden.<br>
+          All content © Copyright Garrett Moseke.
+      </h6>
     </footer>
   </body>
 </html>
