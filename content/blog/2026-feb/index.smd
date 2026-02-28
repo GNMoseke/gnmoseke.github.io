@@ -1,0 +1,231 @@
+---
+.title = "February 2026, In Bullet Points",
+.date = @date("2026-02-28T07:32:03+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "It's that time for stats again",
+.tags = ["Personal", "Reflection"]
+---
+
+>[]($block.attrs("author-note"))
+> Continuing my goal from [January](2026-jan), here's a bunch of shit a random guy on the
+> internet did this month.
+
+# Stuff I Did
+## Ran
+I wrote at the end of January that I wanted to run 40km per week, and I did not come
+anywhere close to this sadly. There are a variety of excuses I could make for this, but to
+be honest I think it was a little overambitious anyway coming off of a November/December
+where I ran very little. I at least upped my distance (very slightly), so I'm happy with
+that:
+
+* I ran a total of 80km, up only 6.5 (so, one run) from January.
+* This was a total time of 6:42:00 on feet, with my average speed at 12.12 km/hr (about
+4:57 per km), which is a must faster pace than last month, so that's encouraging.
+* I'm not even going to bother to list my total elevation, because it's basically a
+rounding error.
+
+## Played
+In contrast to January, I did not slam back giant narrative games like there was no
+tomorrow (perhaps a bit of fatigue there, combined with having a lot more to do this
+month), but I did play a much wider variety of stuff:
+* [Q-UP](https://store.steampowered.com/app/3730790/QUP/), which is pretty perfectly done
+satire, especially as someone who was heavily involved in the esports scene for League of
+Legends during college. It also just tickles my brain, because it's one giant optimization
+problem.
+* I finally finished the [Baldur's Gate 3](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/)
+Dark Urge playthrough that a close friend and I started over a year ago. I'm happy to say
+that Durge is just as fun as a normal playthrough, and being comically over the top evil
+never gets old.
+* [Super Battle Golf](https://store.steampowered.com/app/4069520/Super_Battle_Golf/) was
+one I picked up with a few friends because it looked like a blast, and I'm happy to say
+that it very much is. I can't remember the last time I laughed hard enough to cry and then
+cursed out my best friends within the span of 30 seconds. It's the quintessential
+definition of "does precisely one thing to perfection" for me.
+* I made the mistake of starting a game of [Civilization VI](https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/)
+on a whim one morning, only to discover 2 days later that I had not gone outside (as one
+does with Civilization). It had been a long time since I played, but I still cruised
+pretty comfortably to a diplomatic victory as the Netherlands (felt appropriate) and had a
+great time escaping the gray outside ~~while reducing my enemies to rubble so that fewer
+people could vote against me in the world congress~~.
+* I've been playing a [Daggerheart](https://www.daggerheart.com/) campaign with my normal
+D&D group while we take a break from my main campaign. I'm a player this time (usually I'm
+the forever DM) in a Western themed magic setting, and I have to say that Daggerheart is
+pretty awesome. It basically nails exactly the narrative-forward style of TTRPGs that I
+like, and I'm having a blast playing as Jessie, the mayor's daughter who just wants to get
+into bar fights and carries a double barrel shotgun disguised as a parasol.
+
+## Read
+### Books
+I finished 7 books in February (though 2 of them were more like novellas and one of them I
+had already begun months ago):
+* [The Shadow of What Was Lost](https://hardcover.app/books/the-shadow-of-what-was-lost) - ehhhh. 600 pages of setup and then speedruns the climax
+only to set up even more confusing stuff. It wasn't *bad*, just a little too grandiose for
+me (though I guess I shouldn't be surprised, Islington's Heirarchy series is very similar
+even though I like it a lot more).
+* [Golden Son](https://hardcover.app/books/golden-son) - better than Red Rising for me,
+really hard to put down, but not quite an all-timer. I was hesitant to return to the Red
+Rising universe after the first book's absolute brutality, but I'm glad I did, because
+the first book is by far the weakest.
+* [Morning Star](https://hardcover.app/books/morning-star) - Also very good and a great
+ending to the original Red Rising trilogy. I'm happy I stuck with it because the books are
+just page turners start to finish, and I already have the sequel trilogy lined up for
+March and April.
+* I finally finished *Harry Potter en de Steen Der Wijzen* (the Dutch translation of the
+Sorcerer's Stone (yes I'm using the American title, sue me)). The language comprehension
+has really started to pick up for me, which feels awesome. I'm already halfway through
+*Harry Potter en de Geheime Kamer* and can do entire chapters in one sitting. Also side
+note, the title of this one in Dutch annoys me to no end (literally "The Secret Room"
+rather than "The Chamber **OF** Secrects").
+* I read [The Slow Regard of Silent Things](https://hardcover.app/books/the-slow-regard-of-silent-things)
+and [The Narrow Road Between Desires](https://hardcover.app/books/the-narrow-road-between-desires) after finding them
+at a local bookshop and feeling a hankering for some Rothfuss while I wait for the final
+book in the Kingkiller trilogy that will never come out. Both are very good, though *The
+Slow Regard of Silent Things* in particular is a very odd read just in general, but
+especially if you haven't read the main books.
+* Finally, I read [Coconut](https://hardcover.app/books/coconut-346124c0-7bdd-4efc-8def-5aec969e6caf)
+after getting it in a "blind date with a book" package from the same bookshop. It's a
+lovely (and slightly harrowing) read, and having a memoir was a great palette cleanser
+after all the grand fantasy/sci-fi. Recommend!
+
+### Not Books
+A few more things in this category this month, but here's some associated links I found
+interesting:
+* [*Don't Get Distracted*](https://calebhearth.com/dont-get-distracted), a talk about how
+engineers can often miss the larger picture when working with an interesting problem.
+Slightly disturbing to read, but really important (and a big reason I flat refuse to work
+for anything military or military-adjacent).
+* I reread [this really great article](https://lux-magazine.com/article/privacy-eroticism/)
+on how the normalization of a lack of privacy has killed a lot of eroticism. I promise
+it's not a super sexual article other than passing mentions of things, but anecdotally I found
+it resonating a lot with my own experience, particularly this bit:
+
+> Even when, as in my experience in the salon, I am acting in the privacy of my own body,
+> someone is always there watching, ready to interpret my actions, problematize them so as
+> to share in the same sense of magical thinking, the same insecurities, and to be
+> punished for not being insecure in the same way.
+
+* I went down [Dave Gauer's blog](https://ratfactor.com) as a bit of a rabbit hole after
+finding one of his articles on [lobste.rs](https://lobste.rs). A lot of his writing as an engineer
+resonates with me, in particular [*I'm an American software developer and the "broligarchs" don't speak for me*](https://ratfactor.com/tech-nope).
+* On a lighter note to end this section, [*How far back in time can you understand English?*](https://www.deadlanguagesociety.com/p/how-far-back-in-time-understand-english)
+was fascinationg. It started to read pretty close to Dutch around 1400 for me, and I was
+completely lost at 1100. As a great follow-up, [this video](https://www.youtube.com/watch?v=842OX2_vCic)
+that does the same thing but spoken aloud is also super interesting.
+
+
+## Listened
+I listened to a *LOT* of music this month, mostly because I was actually working on some
+projects this go around:
+```
+❯ eurydice stats --since month
+╭──────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 71:13:26                                                                                                                    │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 1027                                                                                                                        │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 1023                                                                                                                        │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 78                                                                                                                          │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 62                                                                                                                          │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Two Steps From Hell - Classics, Vol. 2 - Heaven & Earth: 2                                                                  │
+│                          │ Volbeat - Rewind, Replay, Rebound (Deluxe) - Die To Live: 2                                                                 │
+│                          │ The Format - Boycott Heaven - Holy Roller: 2                                                                                │
+│                          │ Kristofer Maddigan - Cuphead - Original Soundtrack - Sugarland Shimmy: 2                                                    │
+│                          │ Lorien Testard, Alice Duport-Percier - Clair Obscur: Expedition 33 - Verso's Draft (Original Soundtrack) - The End in Me: 1 │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Kristofer Maddigan - Cuphead - Original Soundtrack: 65                                                                      │
+│ (By Total Track Listens) │ Geoff Knorr, Roland Rizzo - Civilization VI OST: 38                                                                         │
+│                          │ Geoff Knorr, Roland Rizzo - Civilization VI: Gathering Storm OST: 33                                                        │
+│                          │ Gareth Coker - Ori and the Blind Forest (Original Soundtrack): 32                                                           │
+│                          │ Darren Korb - Hades: Original Soundtrack: 30                                                                                │
+├──────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Kristofer Maddigan: 124                                                                                                     │
+│ (By Total Track Listens) │ Green Day: 93                                                                                                               │
+│                          │ Darren Korb: 90                                                                                                             │
+│                          │ Two Steps From Hell: 76                                                                                                     │
+│                          │ Geoff Knorr, Roland Rizzo: 71                                                                                               │
+╰──────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Made
+### Code
+* At the start of the month I hammered out [Doctor Wondertainment](https://codeberg.org/garrettm/doctor-wondertainment)
+in a few hours. It's just a super simple Discord bot that my friends and I use to keep a
+database of things we recommend to each other.
+* I swapped my desktop to daily drive [Niri](https://github.com/YaLTeR/niri) as my
+compositor after a couple false starts, and after using it for about two weeks now without
+swapping back to Hyprland I am very satisfied. The "infinite strip workspace" model works
+really well for me in terms of compartmentalizing different things I'm doing on my
+computer at once.
+* As always, I tinkered and tweaked my dotfiles because I can't leave a good thing well
+enough alone. Other than adding niri as mentioned above, the only major change this month
+was swapping no a new color scheme ([`nordic`](https://github.com/AlexvZyl/nordic.nvim)),
+which I also enjoyed forking and tweaking myself.
+* I mentioned last month that I had an application I'd wanted to build for a while, and I
+started that project this month titled [Thoth](https://codeberg.org/garrettm/thoth). Right
+now it's just a personal strava stats bakcup and aggregator, but I intend it to be a sort
+of "personal timeline" thing as it grows. It's also my first forray into a larger piece of
+software written entirely in `zig`, which I'm having a great time with.
+
+### Not Code
+* I said in January that I wanted to make one completely new dish every week from a random
+country. Sadly, my evenings were super busy this month, but I did manage at least two:
+    * Kosovo, where I chose to make stuffed peppers seeing as there were not a ton of
+    interesting options (at least for me). They were fine. They tasted like stuffed
+    peppers.
+    * Bhutan, where I chose to make [Ema datshi](https://en.wikipedia.org/wiki/Ema_datshi).
+    This one was much better (who'd have thought that  fried peppers in a cheese stew was
+    tasty), and I plan to make it again with more interesting pepper varieties.
+* I also perfected my coffee brewing in February, because I am a caricature of a Software
+Engineer: split keyboard, spends way too much time on coffee, uses weird tiny languages
+for fun. Even though I'm in Europe now I still am heavily predisposed to American
+diner-style pour-over coffee, so now I make that every morning (but with good beans and a
+hand grinder because I'm insufferable).
+
+## Watched
+There's only one thing in this category, which is [this video from Jeff Pelletier](https://www.youtube.com/watch?v=S774m29AYr4)
+about racing the Badwater 135 mile ultramarathon in Death Valley. I really like Jeff's
+stuff and I've got running an ultra on my personal bucket list in the next 5 years (though
+I'm looking at 100k, not 100+ miles), so it's fun to see what basically amounts to the
+most evil possible race someone could concoct (barring the Barkleys). Especially
+interesting to me in this was how the intense focus on health statistics and monitoring
+basically didn't matter in the end (or at least didn't have as large of an impact as
+intended) becuase it's pushing the body so far outside the norm that you just can't
+account for everything.
+
+# Stuff I Didn't Do
+This month there wasn't much I completely missed out on, mostly just a lot of stuff that I
+only half-finished:
+* As mentioned at the very start, I was aiming to run 40km a week. I did not hit that,
+*but* I do feel like I'm getting much faster, and I'm in some of the best shape of my life
+already.
+* Similarly, I wanted to cook one new thing a week, but only managed that twice. Largely
+this was because I spent a lot of time with friends in the evenings though, and in a
+couple instances eating new things with them, so half points.
+* I said in January that I had a short story kicking around in my head that I wanted to
+write the draft of. I did not finish the draft, but I have at least begun one and have the
+broad strokes, which is better than nothing.
+
+# Stuff I'm gonna do in March
+This go around with the benefit of two months of hindsight I'm going to try and reel
+myself back to some less ambitious targets:
+* Run my 10k PR at the end of the month. I have a small local race I'm doing with friends
+on the last weekend of March, and I think it's a good opportunity to try for it (and smoke
+them all in the process). This feels a lot better to me than a weekly distance goal,
+though I want to slowly ramp that back up as well.
+* Finish the draft of my short story. This is very achievable, I just need to accept that
+some of the dialogue isn't as perfect as I want and get some actual feedback on it.
+* Though I plan to keep tinkering on `thoth`, I've also had what I think is a pretty neat
+game idea that I've been writing out the design doc for over the last few days. It's rare
+that I can see the "finished state" of a project so clearly in my head off the rip, so
+this feels like one I'd really like to pursue. I'm trying to be realistic and don't plan
+to have a fully playable thing at all this month, but I'd like to at least get something
+super barebones to playtest with my friends.
+
+
+If you've made it all the way to the end of my ramblings, congratulations! You've earned
+these two sentences, which exist because I hate ending things on bullet point lists.
