@@ -1,0 +1,132 @@
+---
+.title = "March 2026, In Bullet Points",
+.date = @date("2026-03-31T19:32:03+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "Man having a job really kills your free time huh?",
+.tags = ["Personal", "Reflection"]
+---
+
+>[]($block.attrs("author-note"))
+> Oh boy oh boy it's time for me to do bullets again! This month I started being gainfully
+> employed once more, so it is... slim pickings to say the least.
+
+# Stuff I Did
+## Ran
+* I said in February that I was aiming to run my 10k PR at a race this month, and I am
+very proud to say that I did! I ran the Zandvoort Circuit run and in addition to setting a
+10k PR of 45:55 I also came in 129th place out of almost 5200, which I am very proud of.
+* I've also started working more seriously on my running form this month. I'm a pretty
+chronic over-strider and especially with how rapidly my pace has improved over the last
+few months I'm starting to really feel it in my knees. I'm making slow progress, but I
+know it's gonna take me a few months to get it where I want it (just in time for my main
+goal race of the year hopefully).
+
+## Played
+I played basically nothing this month, sadly. I did pick up a bunch of new games (curse
+you Steam spring sale), and I've at least spent a few minutes with each of them, but with
+starting a job again and having a ton of other stuff on my calendar this month I just
+never found the time to sit down and get into anything fully. I definitely want to take
+another good chunk out of my backlog in April though, starting with *Hi-Fi Rush* and
+*Cairn*.
+
+## Read
+### Books
+Similar to my game time taking a hit, so did my reading time this month, being limited to
+basically only before bed. I got through two books:
+* [The Tainted Cup](https://hardcover.app/books/the-tainted-cup) - Had been on my "to
+read" stack for quite a while. I thought it was good, the world is super interesting and I
+always enjoy a good detective story. It didn't grab me like a lot of other things, but I'm
+sure I'll be back to finish the trilogy at some point in the future (it just may be a
+while).
+* [Iron Gold](https://hardcover.app/books/iron-gold) - I could not help myself from
+returning to the Red Rising universe. In many ways Iron Gold feels similar to the original
+first book for me: not bad in its own right but very much a setup book for the good stuff
+later on. I'm more than halfway through Dark Age now and can't put it down.
+
+### Not Books
+Only one thing here this go around, which is [You don’t have to if you don’t want to]( https://www.scottsmitelli.com/articles/you-dont-have-to/)
+by Scott Smitelli, who is one of my favorite technical writers (maybe because he's just a
+really good writer). It is (surprise surprise) about LLMs for software engineering, and it
+really resonates with a lot of my experience, especially now that I've joined a company
+that is much more bullish on the technology than I am.
+
+## Listened
+Continuing the trend, not nearly as much in March as compared to February, and here
+especially I've been trying to work through things that [eurydice](https://codeberg.org/garrettm/eurydice)
+tells me are unplayed, hence a lot of the E33 soundtrack since it's just so long.
+```
+❯ eurydice stats --since month
+╭──────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 26:08:56                                                                                                                                     │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 244                                                                                                                                          │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 237                                                                                                                                          │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 24                                                                                                                                           │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 25                                                                                                                                           │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Metallica - Ride The Lightning - Fight Fire With Fire (Remastered): 2                                                                        │
+│                          │ Lorien Testard, Alice Duport-Percier, Victor Borba - Clair Obscur: Expedition 33 Original Soundtrack (Act I) - Une vie à t'aimer: 2          │
+│                          │ Lorien Testard, Alice Duport-Percier, Axelle Verner - Clair Obscur: Expedition 33 Original Soundtrack (Act III) - Une vie à rêver: 2         │
+│                          │ Ninajirachi - I Love My Computer - London Song: 2                                                                                            │
+│                          │ Lorien Testard & Alice Duport-Percier - Clair Obscur: Expedition 33 - Nos vies en Lumière (Bonus Edition) - World Map - Our Painted Death: 2 │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Lorien Testard, Alice Duport-Percier, Victor Borba, Axelle Verner - Clair Obscur: Expedition 33 - Nos vies en Lumière (Bonus Edition): 34    │
+│ (By Total Track Listens) │ Autumn Orange - Cobalt Blues: 25                                                                                                             │
+│                          │ Psychedelic Porn Crumpets - High Visceral {Part One} & {Part Two} Limited Release: 20                                                        │
+│                          │ Autumn Orange - Cryptids: 20                                                                                                                 │
+│                          │ Paul Leonard-Morgan - Cyberpunk 2077: 19                                                                                                     │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Autumn Orange: 88                                                                                                                            │
+│ (By Total Track Listens) │ Lorien Testard: 43                                                                                                                           │
+│                          │ Lorien Testard & Alice Duport-Percier: 27                                                                                                    │
+│                          │ Psychedelic Porn Crumpets: 20                                                                                                                │
+│                          │ Metallica: 20                                                                                                                                │
+╰──────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Made
+### Code
+My wakapi instance says I have a pitiful 5 hours and 28 minutes of code time for the
+entire month :(
+
+What tiny little bit I did was largely on the game project I wrote about last month, which
+I am still excited about but need to actually buckle down and work on to at least get it
+to a very basic vertical slice/playtestable version.
+
+### Not Code
+I built a lot of furniture this month. I have a bunch of friends all moving into new
+places (tis the season), so I spent a good few weekends carting around heavy things and
+putting together assorted beds/wardrobes/etc.
+
+# Stuff I Didn't Do
+* Once again, I did not finish the draft of the short story I've been working on. I'll
+come by and noodle on it every few days, but it's in a bit of a rut at the moment. I think
+I just need to push through and get *something* done so that I can start editing.
+* Similar thing with the game idea as mentioned above: I've at least started on the
+project (and to my credit have a pretty extensive design doc written out), but code wise
+it is slim pickings.
+
+# Stuff I'm Gonna Do in April
+* Now that I'm back into the swing of things with the whole "having a job" thing, and with
+a 4 day holiday weekend coming up, I'm planning to really power through a good chunk of
+the secret game project. My goal is to get it to such a point that I can start to dogfood
+it with friends at the end of the month, which includes a fully working basic server
+implementation and some sort of very basic client (almost certainly just a webpage). I'm
+excited to actually see if the idea has merit, and the good news is that if it dosen't one
+of the pieces that I've already begun working on is just neat on its own, game or not.
+* With the weather finally *finally* getting better, that means it's time to start
+cranking my kilometers back up. For starters I'm aiming at 30k per week, maybe 35 by the
+end of the month, but with a focus on my form for at least one run per week.
+* In concert with the above, I want to do a better job with my diet in April. I tended to
+reach for off the shelf pre-made stuff in March largely because my calendar suddenly went
+from very empty to very full, but even when trying to not eat total junk stuff that comes
+out of a plastic bag isn't ideal. I've got plenty of vegetarian staples that I can cook
+without really batting an eye, so I want to really get myself in the habit of reaching for
+that instead of yet another reheated pasta.
+
+Short and sweet this month! Here's to an April filled with sun (*finally*) and runs!
