@@ -1,0 +1,156 @@
+---
+.title = "April 2026, In Bullet Points",
+.date = @date("2026-04-30T07:29:10+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "",
+.tags = ["Personal","Reflection"],
+.aliases = [],
+---
+>[]($block.attrs("author-note"))
+> It's only month 4 and I'm alread running out of clever ways to open these.
+
+# Stuff I Did
+## Ran
+* I started my marathon training block in earnest this month, after moving my target race
+to midway through October. I'm trying to start early this go around since I'm aiming to run
+a 3:30 at that race. I have not been super consistent with it so far, but I have at least
+not skipped a long run, which is the most important thing.
+* Here's my output from [thoth](https://codeberg.org/garrettm/thoth), which now is useful
+enough to give me a summary:
+```
+❯ thoth summary --since month
+=== THIS MONTH ===
+distance (km): 72.735
+average speed (km/hr): 11.813
+total_time (hr): 6.41
+```
+
+## Played
+* I only played one full game this month, which was Hi-Fi RUSH. I wrote a
+[Rambling Review](rr-hifi-rush) for it.
+* I played a smattering of other stuff on and off, mostly stuff that I could pick up and
+enjoy for just a few minutes at a time. [ULTRAKILL](https://store.steampowered.com/app/1229490/ULTRAKILL/)
+was a notable one for being intense enough that I could only play in short bursts anyway.
+
+## Read
+### Books
+* After falling back into the Red Rising universe (in a good way, because the books are
+excellent) I powered through both [Dark Age](https://hardcover.app/books/dark-age) and
+[Light Bringer](https://hardcover.app/books/light-bringer) this month. Just like with the
+original trilogy, it only got stronger as it went along, and even though I could see some
+of the major story beats coming it was still as gripping as I could have hoped. I can't
+wait for *Red God* to come out.
+
+### Not Books
+As is becoming a trend (and one I want to reduce, more on that later) I read a ton of tech
+articles, far too many about LLMs. A selection:
+
+* [I used AI. It worked. I hated it.](https://taggart-tech.com/reckoning/) - rough one to
+read, especially because it mirrors my own experience with the few instances I've tried in
+good faith to use the tools. I still personally sit very much in the "not a notable
+improvement and in many ways a detriment" camp, and will continue to refrain from using
+LLMs in my work.
+* [The Machines are Fine, I'm Worried About Us](https://ergosphere.blog/posts/the-machines-are-fine/)
+(this seems to have been taken down?) either way, it has a salient quote that I thankfully
+saved from when I first read it:
+> Schwartz's experiment is the most revealing, and not for the reason he thinks. What he
+> demonstrated is that Claude can, with detailed supervision, produce a technically
+> rigorous physics paper. What he actually demonstrated, if you read carefully, is that
+> the supervision is the physics. [...] The experiment succeeded because the human
+> supervisor had done the grunt work, years ago, that the machine is now supposedly
+> liberating us from.
+
+* Like many in my industry, I read the entire [The Future of Everything is Lies, I Guess](https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess)
+(the introduction is linked). It is really, really depressing. But I think it's also
+really really important reading. If you're going to sit down with a nice cup of *insert
+preferred beverage* and read anything I've linked, it should be this one.
+* I also read [Go Ahead And Use AI. It Will Only Help Me Dominate You.](https://defector.com/go-ahead-and-use-ai-it-will-only-help-me-dominate-you),
+which maybe makes me a bit full of myself but was entertaining nonetheless.
+* Phew, ok, enough with the LLM articles. How about some rapid-fire stuff that was just
+plain interesting or funny rather than depressing:
+    * [The Top 10 Biggest Conspiracies in Open Source](https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html)
+    was an outstanding slow build of absurdity.
+    * [coreutils](https://ratfactor.com/slackware/pkgblog/coreutils), which goes through
+    every single GNU core utility, was both fascinating and super useful especially since
+    my new job has me spending a lot of time SSHed into a remote system with only a bash
+    shell to my name.
+    * [Drunk Post: Things I’ve Learned as a Senior Engineer](https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as)
+    was highly entertaining even though none of it is particularly novel.
+    * Finally, [CHANGELOG.md](https://nesbitt.io/2026/02/16/changelog.html) was top-tier satire.
+
+## Listened
+I'm so close to having nothing in my [eurydice](https://codeberg.org/garrettm/eurydice)
+output of unplayed songs. Here's my stats for that and for this month:
+```
+❯ eurydice-unplayed | wc -l
+60
+
+❯ eurydice stats --since month
+╭──────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 46:02:04                                                                                                                 │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 863                                                                                                                      │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 696                                                                                                                      │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 44                                                                                                                       │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 20                                                                                                                       │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Lorien Testard - Clair Obscur: Expedition 33 Original Soundtrack (Act I) - Gestral Summer Party: 3                       │
+│                          │ Lorien Testard & Alice Duport-Percier - Clair Obscur: Expedition 33 Original Soundtrack (Act II) - L'Amour d'une Mère: 3 │
+│                          │ Lorien Testard & Alice Duport-Percier - Clair Obscur: Expedition 33 Original Soundtrack (Act II) - Paintress: 3          │
+│                          │ Lorien Testard & Alice Duport-Percier - Clair Obscur: Expedition 33 Original Soundtrack (Act II) - Aline: 3              │
+│                          │ Lorien Testard - Clair Obscur: Expedition 33 Original Soundtrack (Act II) - Mémoires: 3                                  │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Lorien Testard - Clair Obscur: Expedition 33 Original Soundtrack (Act II): 152                                           │
+│ (By Total Track Listens) │ Lorien Testard & Alice Duport-Percier - Clair Obscur: Expedition 33 Original Soundtrack (Act I): 143                     │
+│                          │ Christopher Larkin - Hollow Knight: Silksong (Original Soundtrack): 53                                                   │
+│                          │ Alexandre Desplat - Harry Potter and the Deathly Hallows: Part 1 Soundtrack: 30                                          │
+│                          │ Nicholas Hooper - Harry Potter and the Half-Blood Prince Soundtrack: 28                                                  │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Lorien Testard: 494                                                                                                      │
+│ (By Total Track Listens) │ Lorien Testard & Alice Duport-Percier: 205                                                                               │
+│                          │ Autumn Orange: 177                                                                                                       │
+│                          │ Queen: 147                                                                                                               │
+│                          │ John Williams: 60                                                                                                        │
+╰──────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Made
+I managed to spend some actual time on code this month!
+* A good chunk of time was spent on my dotfiles, both to tweak my [jj](https://github.com/jj-vcs/jj) workflow (megamerge
+ftw) and because I've been messing with [glide](https://github.com/glide-browser/glide) as
+my browser on my work computer, which has been a good time (and I appreciate that it's a
+firefox fork instead of chromium).
+* I also did some work on [thoth](https://codeberg.org/garrettm/thoth) this month, which
+is slowly evolving into my "gimme a summary of whatever things of note happened within X
+timeframe" app.
+* I did work on the game project I've mentioned before, but progress there has definitely
+slowed. That's ok though! I'm enjoying sharpening my `zig` skills with other stuff in the
+meantime.
+
+# Stuff I Didn't Do
+* Yet again, the secret game project had little to no progress, nor did the short story
+I'm writing. But in (good?) news, I've started a *second* short story project because in
+the [eternal words of Pip](https://www.youtube.com/watch?v=dLXeL4HbPr4), we've had one
+writing project yes, but what about second writing project?
+* I didn't run as much as I intended to, but I did at least start getting *consistent*
+again, which I consider more important anyways. Slowly but surely!
+
+# Stuff I'm Gonna Do in May
+* The biggest thing I want to try this month is completely avoiding HackerNews. Though I
+do find lots of interesting stuff on there, and often learn a lot, recently it's mostly
+just been article after article that depresses me more than anything else. I think taking
+a breather to just enjoy tech again myself will be good (and it also means I can focus on
+curating my RSS feeds, which is a fun bonus background project).
+* This is a very small/easy one, but I also would really like to do one of my long runs
+this month in another part of the Netherlands. I've had a go-to handful of paths for the
+entire 2.5 years I've lived here, and I'm starting to feel the boredom on most of them.
+Taking a train to somewhere across the country offers the ability to run in a quieter
+place, and maybe even toss in a couple hills. I think this may come towards the end of the
+month since I don't really want to do it for anything under 20k, but thankfully I have a
+22k lined up for the second to last week of May. Unsure where I'm gonna go yet, but it
+should be fun!
