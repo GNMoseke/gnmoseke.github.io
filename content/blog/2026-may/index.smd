@@ -1,0 +1,161 @@
+---
+.title = "May 2026, In Bullet Points",
+.date = @date("2026-05-31T11:39:25+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.description = "",
+.tags = ["Personal","Reflection"],
+.aliases = [],
+---
+>[]($block.attrs("author-note"))
+> I tweaked my keyboard a bit in the last week so any typos are not my fault
+
+# Stuff I Did
+## Ran
+* Continuing with the trend from last month, I've been pretty satisfied with my general
+pace for most of my runs, especially this early in my season. I can sit pretty
+comfortably around a ~5:30/km pace on long runs, which is much faster than I expected. I'm
+feeling really good about my training even though I'm still not doing full weeks quite
+yet, but I did at least up my distance:
+```
+❯ thoth summary --since month
+=== THIS MONTH ===
+distance (km): 100.159
+average speed (km/hr): 11.927
+total_time (hr): 8.81
+```
+
+## Played
+I had a bit more time for games this month, which was great.
+* I played through and wrote a [Rambling Review of Cairn](rr-cairn), which I thoroughly
+enjoyed. It was a great "couch game" especially, though I do want to play through it again
+on something a bit more powerful than my steam deck since it did start to struggle
+performance wise especially towards the end.
+* I plaed a ton of [Far Far West](https://store.steampowered.com/app/3124540/Far_Far_West/)
+with friends this month as well. It's a blast, they've distilled the exctraction shooter
+genre down to its purest form and then also made you cowboys.
+* [MOUSE: PI For Hire](https://store.steampowered.com/app/2416450/MOUSE_PI_For_Hire/) was
+one I'd had my eye on since it was announced, purely because of the art style. I finished
+it just at the end of the month, and though I enjoyed my time with it, I think it is
+definitely carried by the visual style. Otherwise it's a serviceable if mediocre boomer
+shooter that at least had the foresight not to take itself too seriously and lean into the
+cheesy pop-noir aesthetic (pun intended). It probably won't get a full Rambling Review,
+but I do recommend it (on sale).
+
+## Read
+### Books
+* I started this month with *[La Belle Sauvage](https://hardcover.app/books/la-belle-sauvage-the-book-of-dust-volume-one-2017)*,
+the first book in Philip Pullman's new Book of Dust trilogy. The original His Dark
+Materials books are some of my favorites from my childhood, and I enjoyed this one as
+well, though not quite as much. I picked up the second book to read though, so we'll see
+how it evolves, especially with the very large time jump I know is coming.
+* I had of course ordered *[A Parade of Horribles](https://hardcover.app/books/a-parade-of-horribles-dungeon-crawler-carl-book-8-2026)*
+months ago, knowing that it would be a blast. Dungeon Crawler Carl has quickly become my
+favorite "pure junk food" series (I mean that as a compliment). Book 8 was no different,
+and even though there's more and more political/social commentary as the series goes on,
+it's still just as enjoyable. *A Parade of Horribles* sits about in the middle for me -
+not my favorite in the series (I think the overall narrative is starting to get a bit
+unweildly), but still a blast through and through.
+* As a sort of palette cleanser, I picked up [The Design of Everyday Things](https://hardcover.app/books/the-design-of-everyday-things)
+again to end the month after abandoning it a while ago (not because it was bad, it just
+wasn't good bedtime reading). I think it has some very good nuggets of wisdom in it, but
+it's generally just a bit of slog to get through, at least in terms of the writing. Not
+bad writing persay, just boring and precise. Glad I read it, don't need to evangelize it
+as I've seen others do.
+
+### Not Books
+I said in the [april post](2026-apr) that I wanted to reduce the amount of stuff I read
+about LLMs in my field. I mostly managed to do that (with the occasionaly slip), and I
+definitely felt much better for it. I still did do a fair chunk of technical reading, but
+only 2 things really stuck with me this month:
+* [Reflections on a Decade of Coding](https://www.scattered-thoughts.net/writing/reflections-on-a-decade-of-coding)
+was a fantastic series of posts containing lots of good nuggets of wisdom. I'm not quite
+at a decade myself, but I'm approaching it quickly, and it was good to see a lot of my own
+trend of "tempered opinions" reflected by someone I respect a lot as an engineer. A
+particular quote I liked, from [Things Unlearned](https://www.scattered-thoughts.net/writing/things-unlearned/):
+
+> If you have a mountain of shit to move, how much time should you spend looking for a
+> bigger shovel? There's no obviously correct answer - it must depend on the size of the
+> mountain, the availability of large shovels, how quickly you have to move it etc. But
+> the answer absolutely cannot be 100% of your time. At some point you have to shovel some
+> shit.
+
+* I also (re)-read [Egoless Engineering](https://egoless.engineering/), now with a couple
+more years of experience and two additional working environments under my belt, and it
+resonated a lot more this time. Not that I had missed the point the first time, but moreso
+that I hadn't really understood the nuance of a lot of things (I especially used to be
+very much in the "I am the engineer, I know better, stay in your lane" camp). I've come
+around much more to the "domain experts, not domain owners" approach after working at an
+options trading company for a while, where quant traders in particular knew how to write
+code, but not how to engineer software. That didn't prevent them from *learning* though
+(and that went both ways, I learned a *ton* about the mathematics and optimization behind
+pushing literal terabytes of data per hour through these systems), and I found that once I
+had taken a step back from the "you do the math, I write the code" school of thought and
+into the "we both write the code and I give you advice and feedback on the stuff I'm good
+at and vice versa from you to me" way of doing things, our work was much more solid.
+
+## Listened
+I finally made it all the way through every song in my collection this month (or at least
+those tracked by [eurydice](https://codeberg.org/garrettm/eurydice))! That meant I started
+using the `surprise-me` command a lot more to pull up albums I hadn't heard in a while,
+which was fantastic. Here's my stats for the month, which was a lot of soundtracks since
+that's what I listen to most when I'm in heavy coding mode:
+
+```
+❯ eurydice stats --since month
+╭──────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 34:02:56                                                                               │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 545                                                                                    │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 517                                                                                    │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 37                                                                                     │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 59                                                                                     │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Hammerfall - Built To Last - Second To None: 2                                         │
+│                          │ Hammerfall - Built To Last - New Breed: 2                                              │
+│                          │ Hammerfall - Built To Last - The Star Of Home: 2                                       │
+│                          │ Hammerfall - Built To Last - Built To Last: 2                                          │
+│                          │ Hammerfall - Built To Last - Stormbreaker: 2                                           │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Geoff Knorr, Roland Rizzo - Civilization VI OST: 38                                    │
+│ (By Total Track Listens) │ Gustavo Santaolalla - The Last of Us Part II OST: 34                                   │
+│                          │ Lorien Testard - Clair Obscur: Expedition 33 - Nos vies en Lumière (Bonus Edition): 33 │
+│                          │ Dabu & Simon Swerwer - Dwarf Fortress (Official Steam Soundtrack): 30                  │
+│                          │ Nicholas Hooper - Harry Potter and the Half-Blood Prince Soundtrack: 28                │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Autumn Orange: 79                                                                      │
+│ (By Total Track Listens) │ Geoff Knorr, Roland Rizzo: 76                                                          │
+│                          │ Lorien Testard: 67                                                                     │
+│                          │ Kristofer Maddigan: 67                                                                 │
+│                          │ Dabu & Simon Swerwer: 58                                                               │
+╰──────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Made
+* I started working through my copy of [Crafting Interpreters](https://craftinginterpreters.com/)
+this month, which has been a joy. Progress has been slow, both because I have to find good
+chunks of time to work on it and because I'm implementing the interpreter(s) in `zig`
+rather than `java`/`c`, but it is still a grand old time. Repo is [here](https://codeberg.org/garrettm/crafting-interpreters),
+though it will probably sit idle for a good chunk of June as I am doing a lot of
+travelling at the start of the month.
+
+# Stuff I Only Sorta Did or Didn't Do
+* I said last month that I wanted to completely avoid HackerNews, and I did *mostly* do
+that. I did focus mostly on my RSS feeds this month, which was good, but there was
+definitely the occasional visit to the orange site, particularly in the afternoons at work
+while waiting for CI to run. Not nearly as much though, and I do feel like I did a decent
+job avoidng things that I knew would make me feel bad, which was good.
+* I also said that I wanted to do one of my long runs in another part of the Netherlands,
+and sadly that did not come to fruition. Not for lack of trying, but other events
+conspired to land on my calendar most Sundays, which meant that the window for taking a
+train elsewhere was pretty small. I did at least do my 20k along a different path than I
+normally go, so there was something.
+
+# Stuff I'm Gonna Do in June
+June is a big month of travel for me, so I don't have really any specific goals for it
+other than for all my flights to go smoothly (which is largely outside of my control
+anyway). I do want to work on practicing my Dutch a bit more regularly, so lots of time
+sitting around in airports might be a boon there.
