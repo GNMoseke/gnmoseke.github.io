@@ -1,0 +1,178 @@
+---
+.title = "June 2026, In Bullet Points",
+.date = @date("2026-06-30T21:04:12+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "*Eagle Screech Noise (acktshually they use a Red-Tailed Hawk for that)*",
+.tags = ["Personal","Reflection"],
+.aliases = [],
+---
+
+>[]($block.attrs("author-note"))
+> I spent the first 2 weeks of June doing a whirlwind tour of 4 different cities in the
+> US, followed by returning to Amsterdam just in time for the generational heat wave that
+> has swept through Europe, so this month was pretty light on most things.
+
+# Stuff I Did
+## Ran
+I didn't run at all while I was in the states (though I did do at least a bit of hiking
+and a lot of walking around), so my stats are pretty shit for the month. I've also been
+having a bit of knee pain that I think has to do with my stride, so all in all it actually
+might have been a good thing to reduce mileage for a while.
+
+```
+❯ thoth summary --since month
+=== THIS MONTH ===
+distance (km): 33.521
+average speed (km/hr): 10.711
+total_time (hr): 3.20⏎
+```
+
+## Played
+Even though I spent an ungodly amount of time on a plane or in an airport this month, I
+only got through one (very short) full game:
+* [*En Garde!*](https://store.steampowered.com/app/1654660/En_Garde/), which was very fun
+and just long enough not to overstay its welcome. Which is good, because by the end I was
+getting a little bit fed up with the "giant horde of enemies" combat loop, which would have
+tainted an otherwise charming and cheesy version of the swordfight scene in Princess
+Bride.
+* I did play a lot of [Vampire Survivors](https://store.steampowered.com/app/1794680/Vampire_Survivors/)
+and [Absolum](https://store.steampowered.com/app/1904480/Absolum/) during my travels as
+well, but since neither can really be "completed" (I guess technically Absolum can, but
+I've already finished the main story there), they mostly just served as time killers.
+
+## Read
+### Books
+I did get to do a fair bit of reading in June, especially because I spent so much time on
+planes and in airports. In order, I finished:
+* *[Ancillary Justice](https://hardcover.app/books/ancillary-justice)*, which had been on
+my list for a while as the only winner of both the Hugo and Nebula awards in the same
+year. I have to say, though, it was... dissapointing. It has all the right ingredients -
+cool premise, interesting characters, really neat twist with the linguistics - but it just
+kinda ponders onwards and onwards and nothing really happens for a while. It's definitely
+not *bad*, it's just not anything super outstanding, at least in my opinion. I'll probably
+finish the trilogy eventually, but other stuff is gonna go on the stack first.
+* *[For We Are Many](https://hardcover.app/books/for-we-are-many)* was my other plane
+book. Kinda similar thing, honestly. The Bobiverse is fun and it has lots of interesting
+concepts, but already on the second book it feels like something I can only describe as
+"competence porn." It really, really reads like it was written by a software engineer
+(which it was) who thinks of themselves as smarter than the average bear (maybe he does, I
+can't make that claim becuase I don't know him). Again, I'll probably finish the series
+eventually, but for now the Bobiverse is on the backburner (backbober? bobburner? there's
+a pun here somewhere).
+* Needing a bit of a break from sci-fi when I got home, I read *[Factfulness](https://hardcover.app/books/factfulness-585fef27-4331-49bf-83c1-75d35129c879)*
+after seeing it recommended by Jamie Brandon on his [Reads that Lasted](https://www.scattered-thoughts.net/reads).
+I thought it was really good! It came at a good time for me too (in the midst of the world
+currently losing its mind over anything and everything AI, the president of my country
+doing *gestures vaugely at everything*, etc). I've been trying to reframe a lot of how
+I've been thinking in the last couple weeks to look more towards "the slow march of
+progress" rather than "everything is shit and we should just accept it and die."
+* Finally, I slammed through *[What I Talk About When I Talk About Running](https://hardcover.app/books/what-i-talk-about-when-i-talk-about-running)*,
+which has (yet again) been on my read list for forever. This one seems to be super
+divisive: lots of people love it to death, lots of people think it's meandering and boring
+and so on. Which means that I can very clearly spot who is a distance runner and who isn't
+(not a criticism). I loved it. Fantastic read, he basically nails every single reason I
+love the sport, and somehow managed to put into very nice prose within the first couple
+chapters the thing that I always struggle to explain when people ask me about running: My
+head is basically empty during a long run. I often get home and can't remember anything I thought
+about. For me, this is a feature, not a bug. Murakami gets me. He and I could have a beer.
+
+### Not Books
+I didn't really read anything non-book of note this month (or at least nothing I cared to
+remember or write down or bookmark), which was probably a good thing and a needed break.
+But I did think about this quote a lot (one of my favorites) related to some stuff going
+on at work:
+
+> "The odds are greatly against you being immensely smarter than everyone else in the
+> field. If your analysis says your terminal velocity is twice the speed of light, you may
+> have invented warp drive, but the chances are a lot better that you've screwed up." -
+>
+> - [Akin’s Laws of Spacecraft Design #19](https://www.ece.uvic.ca/~elec399/201409/Akin%27s%20Laws%20of%20Spacecraft%20Design.pdf)
+
+## Listened
+Not a whole lot of interest this month, most of my listening was on my phone and I have
+yet to hook that up to an mpd server instance accesible outside my home network (but it's
+on the list):
+
+```
+❯ eurydice stats --since month
+╭──────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 09:22:48                                                                                 │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 170                                                                                      │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 170                                                                                      │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 14                                                                                       │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 13                                                                                       │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Talisk - A Highland Song Official Soundtrack - The Hills: 1                              │
+│                          │ Laurence Chapman - A Highland Song Official Soundtrack - You WIll Remember, Won't Ye?: 1 │
+│                          │ Laurence Chapman - A Highland Song Official Soundtrack - The Beltane Tide: 1             │
+│                          │ Talisk - A Highland Song Official Soundtrack - Echo: 1                                   │
+│                          │ Laurence Chapman - A Highland Song Official Soundtrack - Some Forgotten, Some True: 1    │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Chill Astronaut - Lord of the Rings Lofi: 21                                             │
+│ (By Total Track Listens) │ Autumn Orange - Destiny and Dead People Tea: 21                                          │
+│                          │ John Williams - Harry Potter and the Chamber of Secrets Original Soundtrack: 20          │
+│                          │ Kristofer Maddigan - Cuphead - Original Soundtrack: 19                                   │
+│                          │ Barns Courtney - The Attractions of Youth: 14                                            │
+├──────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Autumn Orange: 66                                                                        │
+│ (By Total Track Listens) │ Kristofer Maddigan: 57                                                                   │
+│                          │ Chill Astronaut: 49                                                                      │
+│                          │ John Williams: 40                                                                        │
+│                          │ Rush: 28                                                                                 │
+╰──────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Made
+I didn't really get a lot of time to work on projects this month (though I've got a couple
+interesting ones in the pipeline for July onwards). Mostly it boiled down to:
+* A couple small bugfixes in [thoth](https://codeberg.org/garrettm/thoth) for stupid edgecases I neglected to test.
+* A tweak or two to the trusty dotfiles, mostly to do with `jj` on my work machine (where
+I get the most mileage out of having nice aliases).
+
+I did, however, reassemble my [Lego Blacksmith](https://www.lego.com/en-us/product/medieval-blacksmith-21325) set
+that I brought to the Netherlands with me in a couple freezer bags 2.5 years ago. It now
+sits proudly on my bookshelf next to the [Lunar Lander](https://www.lego.com/en-us/product/nasa-apollo-11-lunar-lander-10266) as a bookend.
+
+# Stuff I Only Sorta Did or Didn't Do
+Didn't run as much as I should, yadda yadda. Nothing really for this section this month
+since I knew going in that June was going to be a big month for travel, and then the tail
+end of it was taken over by the generational (or at this point, yearly) heatwave that hit
+Europe. All good! Now that I'm back home and staying on this side of the Atlantic for the
+foreseeable future, I can really kick it into gear.
+
+# Stuff I'm Gonna Do in June
+I've decided to try something new for this month and waaaaaay overdo it on the goals, with
+the preliminary acceptance that it's OK if I'm not perfect on everything. But I figure I
+may as well have a bunch of stuff to shoot for, especially with the summer in full swing:
+* I want to try to listen to 3 full albums a week, but just listening. I listen to lots of
+music at work or at home while I'm doing other things, but as I am starting to become a
+Vinyl Guy :tm:, I want to make the effort to just enjoy some of the music I own for the
+art of it. Dunno how I'll randomize it yet, but I wanna make the effort to do it.
+* In the music vein, I want to practice guitar every day, just for 10 minutes. I'm really
+inconsistent with my guitar practice, I tend to pick it up and noodle for a week and then
+leave it sit for 2-3. I'd like to just get in the habit of playing it a bit every day,
+even if I'm not actively learning a song.
+* Now that I'm on the other side of my vacation (or at least the one where it was a bit of
+a stretch to be super active at the same time), I want to super focus in on sticking to my
+marathon training plan. I really want that 3:30 in October. Some of this is dependent on
+the knee pain I mentioned above, but I'm starting to do more strength training and
+stretching as well to help on that front.
+* I want to watch one new movie a week. I have a list of films in my notes that I'll
+occasionally pull from, and I want to try and replace some of the youtube or twitch that I
+watch with actual full movies with like a plot and artistry and stuff. If I'm gonna watch
+something, it may as well be a film and not just a random stream.
+* Repeating a goal from [February](2026-feb), I wanna try and make one new dish a week.
+Unlike February though, I'm not going to choose a random country this time around (I
+think that added a bit too much of a hurdle and stress on finding ingredients). Instead
+I'm going to choose something that I like to eat at a restaurant, and try and make that
+at home (within reason). Also aiming to do mostly vegetarian stuff, because I ate so, so
+much red meat in the US. I need to flush out the system.
+
+Big month coming up! Lots of other stuff going on that I keep off the blog too, but I'm
+generally in a good mood and getting out of the heatwave funk.
