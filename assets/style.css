@@ -51,15 +51,14 @@ figure {
 .site-title {
   font-size: 2.5em;
   margin-bottom: 10px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  font-size: 1.2em;
-  margin-bottom: 20px;
+  justify-content: center;
+  font-size: 1.1em;
 }
 
 .block {

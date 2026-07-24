@@ -14,16 +14,14 @@
     <super>
   </head>
   <body id="body">
-    <h1 class="site-title" :text="$site.title"></h1>
+    <h1 class="site-title"><a href="$site.page('').link()">Purple Shirt Dev</a></h1>
     <nav>
-      <a href="$site.page('').link()">Home</a>
-       &nbsp; • &nbsp;
       <a href="$site.page('blog').link()">Blog</a>
-       &nbsp; • &nbsp;
+       &nbsp;•&nbsp;
       <a href="$site.page('writing').link()">Writing</a>
-       &nbsp; • &nbsp;
+       &nbsp;•&nbsp;
       <a href="$site.page('about').link()">About</a>
-       &nbsp; • &nbsp;
+       &nbsp;•&nbsp;
       <a href="$site.page('shelf').link()">Shelf</a>
     </nav>
     <super>
