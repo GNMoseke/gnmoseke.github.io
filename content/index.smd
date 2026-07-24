@@ -11,15 +11,15 @@ I'm a software engineer, avid runner, and sometimes I write. I'm a child of the 
 mountains living in the flattest, rainiest country on earth.
 
 >[]($block.attrs("author-note"))
-> You'll see these all across my blog. They're just meta-comments from me about what other
+> You'll see these all across my site. They're just meta-comments from me about what other
 > me is writing. For example, current me is struggling to write this introduction without
 > coming off either too self-deprecating or like too much of an asshole.
 
 If you'd like to read things I write, check out the creatively-named
-[Blog]($link.page('blog')). I keep a running list of things I've enjoyed
-reading/watching/playing/listening over on the [Shelf]($link.page('shelf')), and if you'd
-like to know more about me as a person you can check out the [About]($link.page('about'))
-page.
+[Blog]($link.page('blog')) or [Writing]($link.page('writing')). I keep a running list of
+things I've enjoyed reading/watching/playing/listening over on the
+[Shelf]($link.page('shelf')), and if you'd like to know more about me as a person you can
+check out the [About]($link.page('about')) page.
 
 This site is built with [zine](https://zine-ssg.io/), a fantastic lightweight SSG that gets
 simplicity right. Highly recommend.
