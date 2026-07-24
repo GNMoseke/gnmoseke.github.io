@@ -17,7 +17,16 @@
   <div :html="$page.content()"></div>
   <hr>
   <div>
-    <h2>Latest Post</h2>
+    <h2>Latest Writing</h2>
+      <div :loop="$site.page('writing').subpages().slice(0, 1)">
+        <span class="date" :text="$loop.it.date.format('January 02, 2006')"></span>
+        <a class="title" href="$loop.it.link()">
+          <h3 :text="$loop.it.title"></h3>
+        </a>
+        <p class="description" :text="$loop.it.description"></p>
+      </div>
+    <hr>
+    <h2>Latest Blog Post</h2>
       <div :loop="$site.page('blog').subpages().slice(0, 1)">
         <span class="date" :text="$loop.it.date.format('January 02, 2006')"></span>
         <a class="title" href="$loop.it.link()">
@@ -28,7 +37,7 @@
   </div>
   <hr>
   <div>
-    <h2>Pinned Posts - Things I'm Proud Of</h2>
+    <h2>Pinned Blog Posts - Things I'm Proud Of</h2>
       <div :loop="$site.page('blog').subpages()">
         <span class="date" :text="$loop.it.date.format('January 02, 2006')" :if="$loop.it.custom.has('pinned')"></span>
         <a class="title" href="$loop.it.link()" :if="$loop.it.custom.has('pinned')">

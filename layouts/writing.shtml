@@ -1,27 +1,28 @@
 <extend template="base.shtml">
 <head id="head">
   <style>
-    #prev-next {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     margin-top: 40px;
+    .description,
+    .date {
+      font-size: 0.8em;
     }
 
-    figure {
-      align-self: center;
-      text-align: center;
-      font-style: italic;
-    }
-
-    .post {
-      display:flex;
-      flex-direction: column;
+    .title h3{
+      margin-top: 0;
+      margin-bottom: 0;
     }
   </style>
 </head>
 <body id="body">
   <h1 :text="$page.title"></h1>
-  <div class="post" :html="$page.content()"></div>
-  <small class="date" :text="$page.date.format('January 02, 2006')"></small>
+  <div :html="$page.content()"></div>
+  <div>
+    <h2>Posts</h2>
+    <div :loop="$page.subpages()">
+      <span class="date" :text="$loop.it.date.format('January 02, 2006')"></span>
+      <a class="title" href="$loop.it.link()">
+        <h3 :text="$loop.it.title"></h3>
+      </a>
+      <p class="description" :text="$loop.it.description"></p>
+    </div>
+  </div>
 </body>

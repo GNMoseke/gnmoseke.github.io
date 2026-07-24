@@ -20,6 +20,8 @@
        &nbsp; • &nbsp;
       <a href="$site.page('blog').link()">Blog</a>
        &nbsp; • &nbsp;
+      <a href="$site.page('writing').link()">Writing</a>
+       &nbsp; • &nbsp;
       <a href="$site.page('about').link()">About</a>
        &nbsp; • &nbsp;
       <a href="$site.page('shelf').link()">Shelf</a>

@@ -1,0 +1,16 @@
+---
+.title = "Writing",
+.date = @date(""),
+.author = "Garrett Moseke",
+.layout = "writing.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "blog.xml",
+    .output = "index.xml",
+}],
+.draft = false,
+---
+
+>[]($block.attrs("author-note"))
+>This is a collection of things that I've written that aren't blog posts. Generally this
+>is small stories, but it may include longer essays or similar in the future.
