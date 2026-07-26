@@ -1,0 +1,105 @@
+---
+.title = "Reviving an 'Old' Macbook, Part 1: Sysadmin in a Trenchcoat",
+.date = @date("2026-07-26T17:31:39+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "Seriously, revive old hardware. Don't fall prey to always needing brand new crap.",
+.tags = ["Tech","Personal"],
+.aliases = [],
+---
+
+I've been wanting a dedicated "dev machine" for a few months now, rather than just using
+my desktop (yes I realize this is a very privileged desire, my desktop works fine and is a
+great compact little machine that I mostly use for gaming and general web surfing
+(probably too much of the latter)). However, since computers now cost approximately [one
+million dollars](https://www.youtube.com/watch?v=l91ISfcuzDw) (lick my balls, Altman et al), I've been looking around
+for a cheap beater laptop that I could bring back to life (read: install Linux on). Lucky
+for me, a family member had an old 13" MacBook Air from 2020 (the one with the intel chip)
+that I was able to pick up when visiting the US last month. The battery was completely
+dead, so I picked up a [replacement kit from Ifixit](https://www.ifixit.com/en-eu/products/macbook-pro-13-retina-mid-2019-battery) for 100 euros,
+bringing the total cost for a perfectly functioning brand new laptop to a whopping... 100
+euros (and it could have been less if I just got the battery, but I wanted the tools for
+the future). Here is my stream of consciousness of getting it to a working state:
+* battery shot to all hell
+* OS also shot to all hell, can only boot into recovery mode
+* had to go to a cafe to do internet recovery because it no like my home internet (stupid
+fucking local VLAN I have no control over)
+* success!
+* updated all macos shit (but can't go past Sequoia because liquid glass is too cool for
+me (but I'm happy about it because liquid glass is ugly as shit))
+* replaced battery:
+[Spent half an hour slowly dissolving gule and prying the old battery out]($image.asset('old-battery-out.jpg'))
+[Tiniest screw I've ever seen, whoever designed this fuck you (even though I'm sure it was for good reason)]($image.asset('fuck-this-screw.jpg'))
+[Slap a new bad boy in there]($image.asset('new-battery-in.jpg'))
+* tried to install t2arch, did not likey (probably user error tho)
+* installed fedora instead
+* success!
+* until I rebooted after updating stuff (probably did too fast and made mistake of going
+via software center rather than `dnf` like I should have)
+* Now can't get to login screen, just black screen. cool.
+* rage!
+* But at least it boots into grub, so ok let me drop into a shell and unfuck it
+* Simply edit kernel params in grub, ezpz
+* ctrl-x doesn't boot, it just puts an 'x' character.
+* Fuck.
+* simply use f10 instead!
+* There's no f10 key on macbook because it's the touchbar one
+* Fuck.
+* rage!
+* try external keyboard #1, via a usbc adapter. Fail.
+* try my main desktop keyboard. I don't have Fn keys configured on a layer and don't want
+to reflash my whole ass keyboard. Fail.
+* rage!
+* start considering reinstalling fedora or trying arch again
+* wait I have my old ergodox ez
+* pull that off the shelf
+* edit kernel params and hit the f10 key on layer 3 of ergodox:
+[Fear my awesome problem solving power]($image.asset('ergo-to-rescue.jpg'))
+* success!
+* boot into shell at the tiniest fucking resolution of all time
+* `sudo dnf upgrade`
+* decide I should prob plug into power because if battery dies mid update I may turn it
+into a coaster instead
+* let it do what I should have done in the first place and install everything
+* `sudo dnf upgrade` again just in case
+* reboot
+* success!!!!!!
+* I AM A GOD OF COMPUTERS FEAR MY POWER
+* Now the keyboard is icky, so cleaned that
+* Machine good now! Work good!
+
+Now that the machine is up and running with Fedora, here's what its base resource usage looks
+like:
+
+[8 GB of RAM, what is this, a machine for ANTS?]($image.asset('base-system-resources.png'))
+
+My goal with this thing is that I want to replace (almost) everything you can see in this
+screenshot with software I've written myself:
+
+[Look at all this stable, amazing OSS software I'm going to rip out and replace with my own OSS junk!]($image.asset('to-replace.png'))
+
+To list it out explicitly though, that's (in rough order of when I plan to tackle them):
+1. Application launcher/file finder (a-la spotlight search on Mac, currently I use
+   [rofi](https://github.com/davatorium/rofi) on my desktop and KDE's built in KRunner on the
+   laptop)
+2. Window manager ("compositor" in wayland parlance, which is the protocol I'm going to
+   build on). I plan to build against [river](https://codeberg.org/river/river) because it looks neat and I'm currently
+   planning to write most/all of this stuff in `zig` anyway, so it'll be useful reference.
+3. Status Bar (for time/date, media controls, notifications, etc)
+4. Text editor. Shown in the screenshot is my heavily tailored `nvim` config.
+5. Terminal emulator. I'm using [ghostty](https://ghostty.org/) on this laptop as a chance to experiment with
+   something other than my beloved [wezterm](https://wezterm.org/)
+6. Shell + Shell Prompt. You can pry [fish](https://fishshell.com/) from my cold, dead hands, and [starship](https://starship.rs/)
+   provides no value other than looking cool, but it will be fun to tinker with something of
+   my own anyway.
+
+The terminal emulator and shell I care the least about, I do want to tinker with making
+something myself but for those 2 especially I don't intend to replace the tools I normally
+use at all. The first 3 on that list are the main ones I care about: I'd consider it a
+success if they were good enough pieces of software that I could run them on my desktop as
+well without having to constantly squash bugs.
+
+I don't have any time goal in mind for any of this to be clear, it's just a fun little
+side project to work on with a physically dedicated space to do so. I'll add another
+update post when I have the app launcher to a state that's presentable!
