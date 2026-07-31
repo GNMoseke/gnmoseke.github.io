@@ -1,0 +1,182 @@
+---
+.title = "July 2026, In Bullet Points",
+.date = @date("2026-07-31T16:51:04+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "",
+.tags = ["Personal","Reflection"],
+.aliases = [],
+---
+
+>[]($block.attrs("author-note"))
+> Big month! Lots happening both in shareable-land and personal doesn't-belong-on-my-blog
+> land.
+
+# Stuff I Did
+## Ran
+
+I actually broke `thoth` halfway through the month and have not gotten around to fixing it
+yet, but strava says 96km?!? Which is much higher than I expected. I have finally been
+upping my long run distance (and actually sticking to it), so that accounts for most of
+it. But still, good to see, even if I'm still only doing a portion of the plan I laid out
+for myself.
+
+## Played
+
+Another pretty slow month on the games front since it's summer in the Netherlands, which
+means as much time spent outside as possible. I did have one highlight though:
+* [Dead as Disco](https://store.steampowered.com/app/3404260/Dead_as_Disco/), which is everything [Hi-Fi RUSH](rr-hifi-rush) should have been. It is sad
+  that it's only in early access, but having already beaten all the bosses in the game so
+  far, something about it really scratches an itch for me.
+
+## Read
+### Books
+
+I actually only got through *two books* this month, which I take as a bit of a personal
+insult. Again this was largely because I spent many nights outside until late, and most of
+my reading happens before bed (and was therefore often skipped):
+* *[The Secret Commonwealth](https://hardcover.app/books/the-secret-commonwealth)* was... fine. I'll finish the series (already have the third book anyway),
+  but it just doesn't have the same spark for me as the original His Dark Materials
+  trilogy. I definitely appreciate that the Book of Dust trilogy is decidedly for adults
+  and not children, but this one in particular just felt so slow and dull up until the
+  last few chapters. Hopefully it ends strong, there's good ideas being built up, but we
+  shall see.
+* *Harry Potter en de Gevangene van Azkaban* (no link for this one), which is the Dutch
+  translation of Prisoner of Azkaban (if that was not obvious). I'm really happy that I'm
+  to the point where this can be my before-bed reading rather than something that requires
+  intense focus, and my brain slips into full Dutch mode within just a couple sentences.
+  Goblet of Fire will be the real test, since the writing gets decidedly more complex.
+
+### Not Books
+
+In a continuing effort to not satiate this section with links to "person rants about how
+AI is bullshit," I will limit myself to just the one this month:
+* *[AI Mania Is Eviscerating Global Decision-Making](https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/)*, by one of my favorite bloggers (Ludic's stuff is linked all over my own blog).
+  I continue to flat refuse to use any AI anything at work (and continue to perform my job
+  just as competently and efficiently as everyone else), and this piece hit the nail on
+  the head for me in regards to just weathering the storm of constant bullshit background
+  noise. I've also adopted almost word for word the exact thing that Ludic does:
+
+> When someone asks me for my opinion of AI as a programmer, I recommend saying “Oh, that
+> stuff is pretty overblown” and then changing the topic, unless they are in a position
+> where their opinion might influence something important.
+
+## Listened
+
+First our regular eurydice output:
+
+```
+❯ eurydice stats --since month
+╭──────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Total Playtime           │ 15:31:42                                                                                       │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Total Track Listens      │ 291                                                                                            │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Track Listens     │ 287                                                                                            │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Album Listens     │ 20                                                                                             │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Unique Artist Listens    │ 30                                                                                             │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Tracks       │ Parlor Greens - Emeralds - Eat Your Greens: 3                                                  │
+│                          │ Parlor Greens - Emeralds - Mustard Sauce: 2                                                    │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST - Nightsong: 2                                           │
+│                          │ Mario Galaxy Orchestra - SUPER MARIO GALAXY 2 - ORIGINAL SOUNDTRACK - World 5: 1               │
+│                          │ Mario Galaxy Orchestra - SUPER MARIO GALAXY 2 - ORIGINAL SOUNDTRACK - You Got a Grand Star!: 1 │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Albums       │ Masatoshi Yanagi - Hi-Fi RUSH (Original Game Soundtrack): 62                                   │
+│ (By Total Track Listens) │ Gareth Coker - Ori and the Will of the Wisps (Original Soundtrack): 60                         │
+│                          │ Mario Galaxy Orchestra - SUPER MARIO GALAXY 2 - ORIGINAL SOUNDTRACK: 44                        │
+│                          │ Borislav Slavov - Baldur's Gate 3 OST: 44                                                      │
+│                          │ Parlor Greens - Emeralds: 14                                                                   │
+├──────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Most Played Artists      │ Borislav Slavov: 109                                                                           │
+│ (By Total Track Listens) │ Gareth Coker: 60                                                                               │
+│                          │ Mario Galaxy Orchestra: 44                                                                     │
+│                          │ Masatoshi Yanagi: 32                                                                           │
+│                          │ Parlor Greens: 22                                                                              │
+╰──────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+But, I also said [last month](2026-june) that I wanted to try and listen to 3 full albums
+a week just sitting and enjoying. I didn't manage to do a full 3 every week, but I did
+listen to a few and wrote a small 1-2 sentence blurb for each:
+* [Rem - Vincent's Tale](https://renmakesmusic.bandcamp.com/album/vincents-tale-2):
+  Surprisingly heartfelt white boy beats.
+* [Rozwell Kid - Precious Art](https://rozwellkid.bandcamp.com/album/precious-art): I
+  mostly bought this because of the saguaro on the cover. Not the peak of lyricism, but
+  some killer riffs.
+* [Darren Korb - Songs of Supergiant Games](https://supergiantgames.bandcamp.com/album/songs-of-supergiant-games): Tour de
+  force of the best in the business. Gives me goosebumps every time.
+* [Phantom Spell - Heather & Hearth](https://phantomspell.bandcamp.com/album/heather-hearth): "When one day I pass beyond,
+  gift my bones back to the sand. Sow my soul, keep me well, and let my heart beat with
+  the land." Big reason I finished [The Cliffside](https://purpleshirt.dev/writing/the-cliffside/).
+* [King Gizzard & The Lizard Wizard - Butterfly 3000](https://kinggizzard.bandcamp.com/album/butterfly-3000): I really feel
+  like this one would be higher on my KGLW ranking if I took a lot of drugs, but I don't.
+  Still lovely.
+
+## Watched
+
+A rare "Watched" appearance! I also said last month that I wanted to watch one new movie a
+week. Out of a possible 5 weeks, I only did 3 movies, but that's OK with me. In order:
+* [Boogie Nights](https://letterboxd.com/film/boogie-nights/): I knew nothing about this
+  going in other than that a lot of people say that it's outstanding. Can confirm, it is
+  absolutely outstanding. Every character is super developed for being such a giant
+  ensemble cast. Only good Mark Wahlberg performance in existence.
+* [Zoolander](https://letterboxd.com/film/zoolander/): I somehow managed to make it my
+  entire life without seeing Zoolander. A couple jokes have not aged particularly well,
+  but overall absolutely killer hour and a half of one liners. Ya-goggly.
+* [Avatar Aang](https://letterboxd.com/film/avatar-aang-the-last-airbender/): All of the
+  money went into the bending. Which, granted, the bending looks absolutely sick as fuck.
+  Sadly, it has also been the final nail in the coffin for me of the ATLA franchise,
+  wherein I will now refuse to watch anything but the original show and Legend of Korra in
+  order to preserve how good they are. Story and dialogue in this movie was so predictable
+  that I could feel myself going full monkey brain until Toph threw some rocks around
+  again and I could enjoy what was on screen.
+
+## Made
+
+* My biggest project this month was [reviving an old MacBook Pro](macbook-revive-part-1)
+  to turn it into a dedicated dev machine. That process was both fun and satisfying, and
+  I've got a great little machine now to start plugging away at software things.
+* I did also do a fair bit more cooking this month, which was great. Particular highlights
+  were Pasta Arrabiatta (simple, but a variant I had not made before), and a
+  chipotle-pepper soup that turned out excellent.
+
+# Stuff I Only Sorta Did or Didn't Do
+
+* My running again suffered this month (partially self-imposed from playing too much beach
+  volleyball, partially due to lingering knee pain). I really need to kick myself into gear
+  next month if I still want to feel comfortable going into the marathon I'm running in
+  October.
+* I also didn't practice guitar as much as I intended, *but I did practice*, which was a
+  big step up from last month. So aiming to keep that up.
+
+# Stuff I'm Gonna Do in August
+I want to keep up my trend of watching new films and enjoying music just to enjoy, and as
+part of that my real major overlying "thing" for June is a digital decluttering. I've been
+reading [Digital Minimalism](https://hardcover.app/books/digital-minimalism) (begrudgingly
+at first, and then it actually turned out to be pretty solid, even if lots of the stuff it
+points out is already obvious), and would like to actively try a decluttering as
+recommended this month. There's a few reasons for August in particular:
+* Barring extremely shit weather, I'm spending the first few days of it doing a multi-day
+  backpacking trip alone. This presents a guaranteed set of time where I won't be on my
+  phone anyway, with the extra punch of "walking through forest for my mental health."
+* Even though I haven't had any social media accounts for 5+ years at this point (minus
+  strava, which only really half-counts), I have had a lot of mood swings this year
+  related to stuff to do with the digital realm. So trying to regain some of that offline
+  focus would be good.
+* I've already rediscovered a few old hobbies and signed up to try out a couple new ones
+  anyway that all begin or continue into this month (all of which are non-digital), so yet
+  more opportunity to leave my phone at home.
+* Weirdly, I want to rediscover my love for video games as an art form. I've not spent
+  time playing games recently both because I'm busy, but also because my screen time is a
+  lot of passive consumption (blogs, some livestreams, some youtube, etc). I'd like to
+  turn it back into enjoying some active engagement with the art (and this is the same
+  reason for watching good movies and listening to good albums without having them be
+  simple "background noise").
+
+Anyway, we'll see how it goes! If my hiking trip gets rained out, I'll be spending that
+time running in one of the nature reserves near Amsterdam where possible, or doing some
+other outdoors-y substitute. Here's to no more heat waves!
