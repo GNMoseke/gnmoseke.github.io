@@ -1,0 +1,128 @@
+---
+.title = "Software Engineering Hills I Will Metaphorically Die On (2026)",
+.date = @date("2026-08-02T13:17:25+0000"),
+.author = "Garrett Moseke",
+.layout = "post.shtml",
+.draft = false,
+.description = "Oh boy here I go opining again, again.",
+.tags = ["Software Engineering","Opinion","Tech"],
+.custom = { "pinned": true }
+---
+
+It's been a year since I [last did this](software-hills-i-will-die-on-2025), so I figured
+it would be fun to turn this into a yearly little tradition. Especially since there's
+always new stuff to ~rant~ write about! First, though, let's revisit (briefly) what I said
+last year:
+
+# 2025's Opinions
+## "Using an LLM Coding Assistant Makes You A Worse Engineer"
+To probably no one's surprise, [I'm still very much on this train]($link.sibling('software-hills-i-will-die-on-2025').ref('opinion1')). Many things have
+happened in the world of LLM coding in the last year (mostly all the agentic loop stuff
+that really kicked off 6-8 months ago), and yet I still consistently find myself
+outputting software that is as good or better than many of my AI-pilled peers having never
+touched a single Claude.md (or whatever the current "magic markdown cauldron chant" file
+is). Going full agentic makes you a [bad programmer](https://aimakesmesad.com/bad-programmer/). Flag planted on hill.
+
+This sounds very conceited and that's because it slightly is. I will temper with the fact
+that I do think there is *some* value to your Claudes and Codexes and what-have-yous, but the
+handful of times I've seen that value rear its head it has without exception been in a very
+narrow, very well defined, very single-purpose context (pun intended). I tried the agentic
+loop style for about a week when it became the new hot shit. I threw away everything it
+did, because I knew I could do it better. Sure, they can "type" at the speed of light, but
+I build systems that aren't a house of cards. Typing speed does not matter at all.
+
+/end rant
+
+## "Most Comments in Your Code Should Have a Callout Type"
+I still think [this one]($link.sibling('software-hills-i-will-die-on-2025').ref('opinion2')) is true as well. Not much to
+say about it really, other than that I continue to get a ton of utility out of it if for
+no other reasons than searchability and visual delineation.
+
+## "Pure TDD Is Mostly An Exercise In Frustration, Not Productivity"
+I also still think [this]($link.sibling('software-hills-i-will-die-on-2025').ref('opinion3')) is true, though maybe with less strong feelings.
+I happened to be writing the original post at a time when TDD was being shoved very hard
+down my throat, and I naturally lashed back out against it. To be clear, I still think
+that adhering to Test-Driven Dogma is generally just not a fun time, but I've also softened my
+general opinions on how other people write code substantially (excepting the LLM thing).
+
+## "Many SWEs Need to be Hit With an RTFM"
+Hoo, boy. On the one hand, [this]($link.sibling('software-hills-i-will-die-on-2025').ref('opinion4')) was also driven by a current frustration at the time with
+people using me as the "answer machine" instead of learning to use their tools correctly.
+My better nature gremlin tells me I should tame this one and say something to the effect of "it's
+ok, we're all always learning, you may be one of [today's lucky ten thousand](https://xkcd.com/1053/)."
+
+Then the little gremlin on the other shoulder chimes in with the fact that now it seems
+like every other person has determined that because they have a magic slot machine that
+can shit out bash scripts for them, they don't need to even ask me in the first place and can
+instead drop thousands of lines of slop that breaks the entire codebase on my lap every
+morning. So, potato potato.
+
+The enlightened gremlin that's meditated on inner peace and shit has come to the
+conclusion that it's best to just link people documentation and let them read it and ask
+questions (unless it is actually a question that merits initial discussion). Enlightened
+gremlin will also just reject slop patches to his code, or quietly rewrite it to work
+correctly a few weeks after it was merged without his approval. He's a bit of a
+perfectionist.
+
+# New Hills This Year
+
+I thought long and hard about what I wanted to put on this list that I haven't said
+already. I only came up with two, and neither is a particularly novel idea, but they are
+things that I've found myself pretty firmly fighting for.
+
+## [Build your systems as if they are going to run on 10 year old hardware, even if they aren't]($section.id('opinion1'))
+My current role has me working with distributed clusters of machines that are all fairly
+capable little boxes in their own right, but aren't by any means supercomputers. They're
+each approximately the equivalent of a solid desktop build from 10 years ago or so (hence
+the title of this hill). What I find is that many engineers (myself occasionally included,
+I'll cop to it) tend to just throw code at the hardware expecting that it'll be fine.
+Premature optimization, root of all evil, yadda yadda yadda. This often manifests in
+writing electron apps (*insert vomit sound effect*).
+
+Now, the electron app thing is actually not true of the system I work on. But, the
+tendency to say "we use a fast compiled language, and my tests run pretty fast on my $4000
+macbook, so it should be fine" is unnervingly high. I've spent a lot of time over the last
+year working on how I architect software from a higher level rather than just ooga-ooga-monkey-type-code
+all the time. This mostly resolves into [being data driven where possible](https://www.youtube.com/watch?v=WDIkqP4JbkE) and
+[understanding the actual tech that underlies how we deal with data](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/), but
+I think there's a lot to be said too about just treating your dev machine as your
+deployment machine (in cases like mine where they're markedly different in terms of
+compute power).
+
+I want my stuff to compile in seconds, not minutes (ideally in less than a second). Same
+for running most test suites. Eventually, all code runs on real hardware. If you start out with
+the mindset of being as optimal as possible with that hardware, you get better software.
+So treat the hardware that you do have as worse than it is, and you'll produce systems
+that run so fast they'll rip the skin from your bones (no, I will not insert a rust
+"blazing fast" meme here).
+
+Also, as a shoehorned in final point, one stick of RAM now costs the GDP of a small island
+nation, so it's probably good to squeeze everything you can out of the chips you do have.
+Fuck you, AI industry.
+
+## [The best way to become a better SWE is to become a better technical writer]($section.id('opinion2'))
+This one gets a little bit thorny because solid technical writing in many places often requires strong English.
+Obviously, there are probably a couple people on the planet who don't speak that
+language, or don't speak it as their mother tongue. I'm thinking there's at least three or
+four people like that, probably.
+
+Joking aside, this one comes from a true place of anecdotal experience (and translation
+apps are usually good enough here too). The engineers who I have most respected, admired,
+and learned from in my career have without exception been exceedingly competent writers,
+and have not shied away from writing huge essays in team chats, design docs, readmes, or
+really anywhere else with a text renderer. This is not to say that you need to write a
+multi-thousand word essay for every little thing, but by writing something other
+than a thumbs up emoji, you are thinking about the problem. This is a [well-known thing](https://www.nature.com/articles/s44222-025-00323-4),
+of course. I'm not treading new ground here.
+
+If I had to end with a "main thrust" though, so to speak, it's that I think the biggest
+thing that has had an impact on my career and my skill as an engineer is building up a
+willingness to write technically, even if it's often a chore (I have the whole system in
+my head, dammit!). Not only for my peers, but for my future self as well. I will often
+find myself coming back to a long message to a colleague, or an `Architecture.md` file I
+wrote months or years ago, purely from some key word or phrase that I know exists in it.
+And then I get a window into what I was thinking, why I was thinking it, and more often
+than not a rebuttal to an idea I think that I've just had, but that I actually had all
+that time ago and discarded. Maybe I should have, maybe not, but having the thought
+written down is always valuable. This is a major piece of my career (and my own hobby
+stuff) that I continue to try and focus on improving, no matter what.
