@@ -6,7 +6,6 @@
 .draft = false,
 .description = "It's-not-that-deep musings on individualism, simplicity, and writing.",
 .tags = ["writing", "personal"],
-.custom = { "pinned": true }
 ---
 
 I redid my blog. By "redid" I mean "started using a different static site generator." My

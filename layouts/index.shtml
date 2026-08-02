@@ -37,8 +37,8 @@
   </div>
   <hr>
   <div>
-    <h2>Pinned Blog Posts - Things I'm Proud Of</h2>
-      <div :loop="$site.page('blog').subpages()">
+    <h2>Things I'm Proud Of</h2>
+      <div :loop="$site.pages()">
         <span class="date" :text="$loop.it.date.format('January 02, 2006')" :if="$loop.it.custom.has('pinned')"></span>
         <a class="title" href="$loop.it.link()" :if="$loop.it.custom.has('pinned')">
           <h3 :text="$loop.it.title"></h3>

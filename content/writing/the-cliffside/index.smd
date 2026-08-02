@@ -5,6 +5,7 @@
 .layout = "post.shtml",
 .draft = false,
 .description = "A short story.",
+.custom = { "pinned": true }
 ---
 
 Waves beat against the cliff face below like the low thrum of a sleeping heart. A man
