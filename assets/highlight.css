@@ -86,7 +86,6 @@ pre {
   border-radius: 5px;
   padding: 5px 5px;
   overflow-x:scroll;
-  display:inline-flex;
 }
 
 code .comment {
